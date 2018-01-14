@@ -1,8 +1,8 @@
+D:\AWork\K\Server\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
 D:\AWork\K\Server\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
 D:\AWork\K\Server\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe
 D:\AWork\K\Server\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
-D:\AWork\K\Server\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
-D:\AWork\K\Server\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.exe
-D:\AWork\K\Server\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.pdb
 D:\AWork\K\Server\ConsoleApp\ConsoleApp\bin\Debug\MySql.Data.dll
 D:\AWork\K\Server\ConsoleApp\ConsoleApp\bin\Debug\MySql.Data.xml
+D:\AWork\K\Server\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+D:\AWork\K\Server\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.pdb

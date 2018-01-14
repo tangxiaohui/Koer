@@ -13,6 +13,8 @@ public class Conn
     public int buffCount = 0;
     public byte[] lenBytes = new byte[sizeof(UInt32)];
     public Int32 msgLength = 0;
+    public long lastTickTime = long.MinValue;
+    public Player player;
 
     public Conn()
     {
@@ -24,6 +26,8 @@ public class Conn
         this.socket = socket;
         isUse = true;
         buffCount = 0;
+
+        lastTickTime = Sys.GetTimeStamp();
     }
 
     public int BuffRemain()
@@ -45,5 +49,10 @@ public class Conn
         Console.WriteLine("断开连接" + GetAdress());
         socket.Close();
         isUse = false;
+    }
+
+    public void Send(ProtocolBase protocol)
+    {
+        ServNet.instance.Send(this, protocol);
     }
 }
