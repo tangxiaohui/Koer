@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 617084a0942a5cd469fb49493de0debb
+timeCreated: 1513250827
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ZD-tiao
+    21300002: ZJM-dikuang
+    21300004: ZJM-dikuang2
+    21300006: ZJM-dikuang3
+    21300008: ZJM-dikuang4
+    21300010: ZJM-dikuang5
+    21300012: ZJM-hua
+    21300014: ZJM-jiahao
+    21300016: ZJM-jyan
+    21300018: ZJM-renwu
+    21300020: ZJM-shezhi
+    21300022: ZJM-touxiang
+    21300024: ZJM-touxiang3
+    21300026: ZJM-touxiang4
+    21300028: ZJM-xia1
+    21300030: ZJM-xia2
+    21300032: ZJM-xia3
+    21300034: ZJM-xia4
+    21300036: ZJM-xia5
+    21300038: ZJM-xia6
+    21300040: ZJM-xia7
+    21300042: ZJM-xia8
+    21300044: ZJM-xia9
+    21300046: ZJM-zhandouli
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZD-tiao
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 354
+        width: 175
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-dikuang
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 446
+        width: 607
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-dikuang2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 3
+        width: 44
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 0, z: 20, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-dikuang3
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 332
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 4, w: 4}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-dikuang4
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 3
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 2, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-dikuang5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 422
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-hua
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 233
+        width: 124
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-jiahao
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 492
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-jyan
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 54
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-renwu
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 186
+        width: 240
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-shezhi
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 203
+        width: 189
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-touxiang
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 21
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-touxiang3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 47
+        width: 200
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-touxiang4
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 308
+        width: 494
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-xia1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 126
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-xia2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 13
+        width: 122
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-xia3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 330
+        width: 166
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-xia4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 346
+        width: 118
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-xia5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 184
+        width: 144
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-xia6
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 454
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-xia7
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 398
+        width: 6
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-xia8
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 163
+        width: 164
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-xia9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 158
+        width: 90
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-zhandouli
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 178
+        width: 106
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

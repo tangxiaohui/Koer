@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: 4d1e9a42881999249a6f4bb6c7c8457f
+timeCreated: 1513065567
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HD-QD-1
+    21300002: HD-QD-2
+    21300004: HD-QD-3
+    21300006: HD-QD-4
+    21300008: HD-QD-5
+    21300010: HD-QD-7
+    21300012: HD-QD-biaotou
+    21300014: HD-QD-huabian
+    21300016: HD-QD-tou
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HD-QD-1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 175
+        width: 102
+        height: 94
+      alignment: 0
+      pivot: {x: 51, y: 47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HD-QD-2
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 334
+        width: 62
+        height: 176
+      alignment: 0
+      pivot: {x: 31, y: 88}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HD-QD-3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 298
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 9.5, y: 13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HD-QD-4
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 172
+        width: 58
+        height: 160
+      alignment: 0
+      pivot: {x: 29, y: 80}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HD-QD-5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6
+        width: 35
+        height: 164
+      alignment: 0
+      pivot: {x: 17.5, y: 82}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HD-QD-7
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 100
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 35, y: 35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HD-QD-biaotou
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 326
+        width: 442
+        height: 184
+      alignment: 0
+      pivot: {x: 221, y: 92}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HD-QD-huabian
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 287
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 17.5, y: 18.5}
+      border: {x: 16, y: 18, z: 6, w: 8}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HD-QD-tou
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 271
+        width: 358
+        height: 53
+      alignment: 0
+      pivot: {x: 179, y: 26.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

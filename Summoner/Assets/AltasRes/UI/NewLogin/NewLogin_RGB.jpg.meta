@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: 3bf1c9f3925308a42a8424f3b6b19719
+timeCreated: 1513067790
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BG2
+    21300002: DL-anniu
+    21300004: DL-anniu2
+    21300006: DL-bg
+    21300008: DL-dikuang
+    21300010: DL-dikuang2
+    21300012: DL-dikuang3
+    21300014: DL-dikuang4
+    21300016: DL-fanhui
+    21300018: DL-guan
+    21300020: DL-hua
+    21300022: DL-kuang
+    21300024: DL-kuangkuang
+    21300026: DL-logo
+    21300028: DL-qq
+    21300030: DL-saizi
+    21300032: DL-tiao
+    21300034: DL-wx
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BG2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1026
+        width: 828
+        height: 1020
+      alignment: 0
+      pivot: {x: 414, y: 510}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-anniu
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1647
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 23, y: 23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-anniu2
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 963
+        width: 417
+        height: 54
+      alignment: 0
+      pivot: {x: 208.5, y: 27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-bg
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 341
+        width: 518
+        height: 434
+      alignment: 0
+      pivot: {x: 259, y: 217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-dikuang
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 1847
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 24.5, y: 21.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-dikuang2
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1446
+        width: 35
+        height: 153
+      alignment: 0
+      pivot: {x: 17.5, y: 76.5}
+      border: {x: 14, y: 7, z: 14, w: 7}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-dikuang3
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1695
+        width: 31
+        height: 351
+      alignment: 0
+      pivot: {x: 15.5, y: 175.5}
+      border: {x: 23, y: 26, z: 2, w: 26}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-dikuang4
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 1892
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 26.5, y: 21.5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-fanhui
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 1588
+        width: 47
+        height: 257
+      alignment: 0
+      pivot: {x: 23.5, y: 128.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-guan
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1805
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 13.5, y: 10.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-hua
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 833
+        width: 202
+        height: 128
+      alignment: 0
+      pivot: {x: 101, y: 64}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-kuang
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1601
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 22.5, y: 22}
+      border: {x: 18, y: 14, z: 19, w: 12}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-kuangkuang
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1996
+        width: 157
+        height: 50
+      alignment: 0
+      pivot: {x: 78.5, y: 25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-logo
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 777
+        width: 579
+        height: 247
+      alignment: 0
+      pivot: {x: 289.5, y: 123.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-qq
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1912
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 41.5, y: 41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-saizi
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 1937
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 28, y: 28.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-tiao
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1019
+        width: 425
+        height: 5
+      alignment: 0
+      pivot: {x: 212.5, y: 2.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-wx
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1828
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 41.5, y: 41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

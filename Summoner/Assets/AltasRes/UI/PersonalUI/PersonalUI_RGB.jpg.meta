@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 7190ab8e833d8424fa446c9094232c13
+timeCreated: 1513062614
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GRXX-bg
+    21300002: GRXX-bg2
+    21300004: GRXX-dianzan
+    21300006: GRXX-dianzan2
+    21300008: GRXX-kuangkuang
+    21300010: GRXX-shanchu
+    21300012: GRXX-shoucang
+    21300014: GRXX-xiangcekuang
+    21300016: GRXX-xingxing
+    21300018: GRXX-xiugai
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GRXX-bg
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 733
+        width: 500
+        height: 289
+      alignment: 0
+      pivot: {x: 250, y: 144.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GRXX-bg2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 221
+        width: 438
+        height: 510
+      alignment: 0
+      pivot: {x: 219, y: 255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GRXX-dianzan
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 136
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 41.5, y: 41.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GRXX-dianzan2
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 614
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 18, y: 18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GRXX-kuangkuang
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 120
+        height: 77
+      alignment: 0
+      pivot: {x: 60, y: 38.5}
+      border: {x: 72, y: 24, z: 13, w: 8}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GRXX-shanchu
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 652
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 21, y: 21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GRXX-shoucang
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 52
+        width: 121
+        height: 28
+      alignment: 0
+      pivot: {x: 60.5, y: 14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GRXX-xiangcekuang
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 82
+        width: 137
+        height: 137
+      alignment: 0
+      pivot: {x: 68.5, y: 68.5}
+      border: {x: 20, y: 10, z: 20, w: 10}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GRXX-xingxing
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 675
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 10, y: 9.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GRXX-xiugai
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 696
+        width: 64
+        height: 35
+      alignment: 0
+      pivot: {x: 32, y: 17.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

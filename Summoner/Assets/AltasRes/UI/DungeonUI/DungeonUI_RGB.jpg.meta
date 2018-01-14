@@ -1,0 +1,320 @@
+fileFormatVersion: 2
+guid: 965d7934d85cc6547974e6f0a4420c54
+timeCreated: 1513045118
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MJ-BOSS
+    21300002: MJ-bg
+    21300004: MJ-bg1
+    21300006: MJ-bg2
+    21300008: MJ-bg3
+    21300010: MJ-bg4
+    21300012: MJ-bg5
+    21300014: MJ-bg6
+    21300016: MJ-BOSS2
+    21300018: MJ-BOSS3
+    21300020: MJ-BOSS4
+    21300022: MJ-BOSS5
+    21300024: MJ-BOSS6
+    21300026: MJ-diandian
+    21300028: MJ-paipai
+    21300030: MJ-paipai2
+    21300032: MJ-suo
+    21300034: MJ-tiao
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MJ-BOSS
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 915
+        width: 148
+        height: 203
+      alignment: 0
+      pivot: {x: 74, y: 101.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-bg
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 943
+        width: 759
+        height: 1103
+      alignment: 0
+      pivot: {x: 379.5, y: 551.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-bg1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 849
+        width: 619
+        height: 92
+      alignment: 0
+      pivot: {x: 309.5, y: 46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-bg2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 379
+        width: 619
+        height: 92
+      alignment: 0
+      pivot: {x: 309.5, y: 46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-bg3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 473
+        width: 619
+        height: 92
+      alignment: 0
+      pivot: {x: 309.5, y: 46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-bg4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 567
+        width: 619
+        height: 92
+      alignment: 0
+      pivot: {x: 309.5, y: 46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-bg5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 661
+        width: 619
+        height: 92
+      alignment: 0
+      pivot: {x: 309.5, y: 46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-bg6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 755
+        width: 619
+        height: 92
+      alignment: 0
+      pivot: {x: 309.5, y: 46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-BOSS2
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 695
+        width: 360
+        height: 218
+      alignment: 0
+      pivot: {x: 180, y: 109}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-BOSS3
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1778
+        width: 253
+        height: 268
+      alignment: 0
+      pivot: {x: 126.5, y: 134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-BOSS4
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1433
+        width: 211
+        height: 275
+      alignment: 0
+      pivot: {x: 105.5, y: 137.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-BOSS5
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1159
+        width: 207
+        height: 222
+      alignment: 0
+      pivot: {x: 103.5, y: 111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-BOSS6
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 297
+        width: 317
+        height: 396
+      alignment: 0
+      pivot: {x: 158.5, y: 198}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-diandian
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1725
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 13, y: 11.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-paipai
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1710
+        width: 227
+        height: 66
+      alignment: 0
+      pivot: {x: 113.5, y: 33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-paipai2
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1383
+        width: 209
+        height: 48
+      alignment: 0
+      pivot: {x: 104.5, y: 24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-suo
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1750
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 13, y: 13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MJ-tiao
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1120
+        width: 188
+        height: 37
+      alignment: 0
+      pivot: {x: 94, y: 18.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

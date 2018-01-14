@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: ede83128d5f19f348a122a93cf33d508
+timeCreated: 1513064156
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CW-+1
+    21300002: CW-bg2
+    21300004: CW-bg3
+    21300006: CW-cheng
+    21300008: CW-chenga
+    21300010: CW-chongwu
+    21300012: CW-heceng
+    21300014: CW-hong
+    21300016: CW-honga
+    21300018: CW-jiahao
+    21300020: CW-jiantou
+    21300022: CW-kulian
+    21300024: CW-lan
+    21300026: CW-lana
+    21300028: CW-ling
+    21300030: CW-LD-1
+    21300032: CW-LD-2
+    21300034: CW-mzi
+    21300036: CW-pinzhi
+    21300038: CW-suipian
+    21300040: CW-touying
+    21300042: CW-tujing
+    21300044: CW-xian
+    21300046: CW-xiaolian
+    21300048: CW-xingxing
+    21300050: CW-xingxing2
+    21300052: CW-xingxinga
+    21300054: CW-yao
+    21300056: CW-zi
+    21300058: CW-zi2
+    21300060: CW-zia
+    21300062: smoke
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CW-+1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 360
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 20.5, y: 15.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-bg2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 667
+        width: 646
+        height: 355
+      alignment: 0
+      pivot: {x: 323, y: 177.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-bg3
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 866
+        width: 290
+        height: 156
+      alignment: 0
+      pivot: {x: 145, y: 78}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-cheng
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 27
+        width: 226
+        height: 330
+      alignment: 0
+      pivot: {x: 113, y: 165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-chenga
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 368
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 18.5, y: 13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-chongwu
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 441
+        width: 166
+        height: 224
+      alignment: 0
+      pivot: {x: 83, y: 112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-heceng
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 625
+        width: 139
+        height: 202
+      alignment: 0
+      pivot: {x: 69.5, y: 101}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-hong
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 534
+        width: 226
+        height: 330
+      alignment: 0
+      pivot: {x: 113, y: 165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-honga
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 365
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 26.5, y: 13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-jiahao
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 945
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 37.5, y: 38.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-jiantou
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 552
+        width: 133
+        height: 71
+      alignment: 0
+      pivot: {x: 66.5, y: 35.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-kulian
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 393
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 23, y: 23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-lan
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 202
+        width: 226
+        height: 330
+      alignment: 0
+      pivot: {x: 113, y: 165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-lana
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 882
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 11.5, y: 13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-ling
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 360
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 26.5, y: 39.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-LD-1
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 359
+        width: 131
+        height: 191
+      alignment: 0
+      pivot: {x: 65.5, y: 95.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-LD-2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 632
+        width: 115
+        height: 33
+      alignment: 0
+      pivot: {x: 57.5, y: 16.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-mzi
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 402
+        width: 86
+        height: 37
+      alignment: 0
+      pivot: {x: 43, y: 18.5}
+      border: {x: 40, y: 0, z: 40, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-pinzhi
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 910
+        width: 60
+        height: 33
+      alignment: 0
+      pivot: {x: 30, y: 16.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-suipian
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 832
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 13, y: 16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-touying
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 619
+        width: 108
+        height: 46
+      alignment: 0
+      pivot: {x: 54, y: 23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-tujing
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 387
+        width: 95
+        height: 278
+      alignment: 0
+      pivot: {x: 47.5, y: 139}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-xian
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 360
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 26.5, y: 39.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-xiaolian
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 393
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 23, y: 23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-xingxing
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 833
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 15, y: 15.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-xingxing2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 396
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 21, y: 21.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-xingxinga
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 364
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 14, y: 13.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-yao
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 829
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 26.5, y: 39.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-zi
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 27
+        width: 226
+        height: 330
+      alignment: 0
+      pivot: {x: 113, y: 165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-zi2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 359
+        width: 98
+        height: 26
+      alignment: 0
+      pivot: {x: 49, y: 13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-zia
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 854
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 11, y: 13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: smoke
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 531
+        width: 91
+        height: 86
+      alignment: 0
+      pivot: {x: 45.5, y: 43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

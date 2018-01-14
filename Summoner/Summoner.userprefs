@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Summoner.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Logic\BattleUI\BattleUI.cs">
+    <Files>
+      <File FileName="Assets\Scripts\UI\UIScrollView.cs" Line="340" Column="46" />
+      <File FileName="Assets\Scripts\ComponentExtension\RectTransformExtension.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Logic\BattleUI\BattleUI.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

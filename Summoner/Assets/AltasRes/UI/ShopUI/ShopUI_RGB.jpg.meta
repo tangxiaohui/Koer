@@ -1,0 +1,250 @@
+fileFormatVersion: 2
+guid: 3e947007c36a7794e9ed693ef18c190a
+timeCreated: 1514518809
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SC-DiamondShop
+    21300002: SC-biaoqian
+    21300004: SC-biaoqian2
+    21300006: SC-dazhe
+    21300008: SC-dazhe2
+    21300010: SC-dazhe3
+    21300012: SC-dazhe4
+    21300014: SC-diban
+    21300016: SC-ItemShop
+    21300018: SC-kuang
+    21300020: SC-tiaotiao
+    21300022: SC-xyz
+    21300024: SC-yigoumai
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SC-DiamondShop
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 232
+        width: 688
+        height: 394
+      alignment: 0
+      pivot: {x: 344, y: 197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SC-biaoqian
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 797
+        width: 69
+        height: 43
+      alignment: 0
+      pivot: {x: 34.5, y: 21.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SC-biaoqian2
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 931
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 45.5, y: 45.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SC-dazhe
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 842
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 43, y: 43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SC-dazhe2
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 843
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 43, y: 43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SC-dazhe3
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 684
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 43, y: 43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SC-dazhe4
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 772
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 43.5, y: 43.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SC-diban
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 954
+        width: 151
+        height: 68
+      alignment: 0
+      pivot: {x: 75.5, y: 34}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SC-ItemShop
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 628
+        width: 688
+        height: 394
+      alignment: 0
+      pivot: {x: 344, y: 197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SC-kuang
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 751
+        width: 75
+        height: 90
+      alignment: 0
+      pivot: {x: 37.5, y: 45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SC-tiaotiao
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 716
+        width: 8
+        height: 236
+      alignment: 0
+      pivot: {x: 4, y: 118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SC-xyz
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 930
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 42, y: 46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SC-yigoumai
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 861
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 45.5, y: 45.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

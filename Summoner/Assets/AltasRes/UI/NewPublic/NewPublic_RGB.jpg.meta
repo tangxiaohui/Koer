@@ -1,0 +1,1569 @@
+fileFormatVersion: 2
+guid: eed4374c0558e6c42a24c5d9df33d4fe
+timeCreated: 1515570618
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BB-jiahao
+    21300002: BB-kuang7
+    21300004: CD-anniu1
+    21300006: CD-anniu1a
+    21300008: CD-anniu1b
+    21300010: CD-anniu1c
+    21300012: CD-anniu2
+    21300014: CD-youjian
+    21300016: CD-youjian2
+    21300018: CD-youjian3
+    21300020: CW-tiao
+    21300022: DL-quan
+    21300024: DL-quan2
+    21300026: DL-xuanzhong
+    21300028: DMZ-baos
+    21300030: DMZ-guang
+    21300032: DMZ-jy
+    21300034: DMZ-meizi
+    21300036: DMZ-shengji
+    21300038: DMZ-yifu
+    21300040: DMZ-zi
+    21300042: DMZ-zi2
+    21300044: friendship
+    21300046: GRXX-jiao
+    21300048: HY-hua
+    21300050: HY-liwu
+    21300052: HY-liwu2
+    21300054: HY-toux2
+    21300056: HY-toux3
+    21300058: JQ-tiaoguo
+    21300060: JS-anniu1
+    21300062: JS-anniu1a
+    21300064: JS-dikuang
+    21300066: JS-dikuang2
+    21300068: JS-fenye
+    21300070: JS-jiahao
+    21300072: JS-jindutiao
+    21300074: JS-jindutiaoa
+    21300076: JS-jinengkuang
+    21300078: JS-jinengkuangxuanze
+    21300080: JS-mingzi1
+    21300082: TS-guanbi2
+    21300084: TS-huaduo
+    21300086: TS-kuang
+    21300088: TS-kuang1
+    21300090: TS-kuang2
+    21300092: TS-kuang3
+    21300094: TS-kuang4
+    21300096: TS-taitou
+    21300098: TS-taohua
+    21300100: TS-tiao
+    21300102: TS-yan
+    21300104: TYZY-anniu1
+    21300106: TYZY-anniu2a
+    21300108: TYZY-anniu2b
+    21300110: TYZY-anniu2c
+    21300112: TYZY-anniu2d
+    21300114: TYZY-anniu3a
+    21300116: TYZY-anniu3b
+    21300118: TYZY-anniu4a
+    21300120: TYZY-kongbai
+    21300122: TYZY-kongbaia
+    21300124: TYZY-kuang1a
+    21300126: TYZY-kuang1b
+    21300128: TYZY-kuang1c
+    21300130: TYZY-tiao1
+    21300132: TYZY-tiao1a
+    21300134: TYZY-tiao2
+    21300136: TYZY-tis
+    21300138: TYZY-tubiao
+    21300140: ZBXT-jiahao
+    21300142: ZBXT-jianhao
+    21300144: ZBXT-pinzhi
+    21300146: ZBXT-pinzhi1
+    21300148: ZBXT-pinzhi2
+    21300150: ZBXT-pinzhi3
+    21300152: ZBXT-pinzhi4
+    21300154: ZBXT-pinzhi5
+    21300156: ZBXT-yizhuangbei
+    21300158: ZD-ditu
+    21300160: ZD-laba
+    21300162: ZD-liaotian3
+    21300164: ZD-shezhi
+    21300166: ZJM-baoshi
+    21300168: ZJM-baoshi2
+    21300170: ZJM-tongqian
+    21300172: ZM-biaoqian
+    21300174: ZM-biaoqian2
+    21300176: ZM-biaoqian3
+    21300178: ZM-biaoqian4
+    21300180: ZM-jifen
+    21300182: PhotoJiahao
+    21300184: DL-jindut2
+    21300186: DL-jindut3
+    21300188: ZD-_0000_shanbi
+    21300190: ZD-_0001_nuqi
+    21300192: ZD-_0002_nuqicao
+    21300194: ZD-_0003_guang
+    21300196: ZD-xuecao
+    21300198: ZD-xuetiao
+    21300200: ZD-xuetiao2
+    21300202: ZD-xuetiao3
+    21300204: ZD-xuetiao4
+    21300206: ZD-boss
+    21300208: ZD-_0033
+    21300210: CW-suipian
+    21300212: ZD-_0001_nuqi_kongbai
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BB-jiahao
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1235
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BB-kuang7
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 996
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CD-anniu1
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 497
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 8, z: 10, w: 7}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CD-anniu1a
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 480
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 8, z: 10, w: 7}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CD-anniu1b
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 497
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 7, z: 10, w: 7}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CD-anniu1c
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 537
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 8, z: 8, w: 7}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CD-anniu2
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 793
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 15, y: 22, z: 14, w: 18}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CD-youjian
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1603
+        width: 73
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CD-youjian2
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1655
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CD-youjian3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 705
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 17, y: 22, z: 17, w: 17}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-suipian
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1455
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CW-tiao
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 510
+        width: 37
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-jindut2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 983
+        width: 500
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-jindut3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 971
+        width: 500
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-quan
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1213
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-quan2
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1380
+        width: 141
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DL-xuanzhong
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 917
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 22, y: 19, z: 20, w: 14}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DMZ-baos
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1455
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DMZ-guang
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1011
+        width: 573
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DMZ-jy
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 861
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DMZ-meizi
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 623
+        width: 346
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DMZ-shengji
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1510
+        width: 750
+        height: 536
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DMZ-yifu
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 833
+        width: 51
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DMZ-zi
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 727
+        width: 404
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DMZ-zi2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 537
+        width: 390
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: friendship
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 657
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GRXX-jiao
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1287
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HY-hua
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 652
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HY-liwu
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1205
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HY-liwu2
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1789
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HY-toux3
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1847
+        width: 199
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JQ-tiaoguo
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 873
+        width: 90
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-anniu1
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 750
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 15, y: 5, z: 13, w: 10}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-anniu1a
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 821
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 6, z: 16, w: 13}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-dikuang
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 518
+        width: 37
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-dikuang2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1170
+        width: 662
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 68, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-fenye
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1507
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 12, z: 16, w: 12}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-jiahao
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1296
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-jindutiao
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 706
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 15, y: 0, z: 15, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-jindutiaoa
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 594
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 9, z: 9, w: 7}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-jinengkuang
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1217
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-jinengkuangxuanze
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1305
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-mingzi1
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 554
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PhotoJiahao
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1913
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TS-guanbi2
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1981
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TS-huaduo
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1752
+        width: 194
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TS-kuang
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 954
+        width: 70
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 12, z: 10, w: 12}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TS-kuang1
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1266
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 11, z: 9, w: 10}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TS-kuang2
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 272
+        width: 34
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 36, z: 28, w: 36}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TS-kuang3
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1018
+        width: 4
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 36, z: 1, w: 36}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TS-kuang4
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 854
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 14, y: 15, z: 15, w: 14}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TS-taitou
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 488
+        width: 326
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TS-taohua
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1068
+        width: 349
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TS-tiao
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1416
+        width: 121
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 12, z: 5, w: 13}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TS-yan
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 961
+        width: 77
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-anniu1
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 772
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-anniu2a
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1489
+        width: 72
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 39, y: 39, z: 27, w: 12}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-anniu2b
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 904
+        width: 69
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 40, y: 40, z: 22, w: 12}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-anniu2c
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1546
+        width: 72
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 41, y: 40, z: 24, w: 12}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-anniu2d
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1732
+        width: 72
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 42, y: 0, z: 23, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-anniu3a
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 711
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-anniu3b
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 752
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-anniu4a
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 820
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-kongbai
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1560
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-kongbaia
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1558
+        width: 21
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-kuang1a
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1514
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 3, z: 0, w: 3}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-kuang1b
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1566
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-kuang1c
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1393
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 3, z: 3, w: 3}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-tiao1
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1403
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-tiao1a
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1209
+        width: 18
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-tiao2
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1455
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 0, w: 1}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-tis
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1726
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TYZY-tubiao
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 686
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZBXT-jiahao
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 812
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZBXT-jianhao
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 735
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZBXT-pinzhi
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1572
+        width: 167
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 1, w: 1}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZBXT-pinzhi1
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1602
+        width: 167
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 1, w: 1}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZBXT-pinzhi2
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1632
+        width: 167
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 1, w: 1}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZBXT-pinzhi3
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1662
+        width: 167
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 1, w: 1}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZBXT-pinzhi4
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1692
+        width: 167
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 2, z: 1, w: 1}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZBXT-pinzhi5
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1722
+        width: 167
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 1, w: 1}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZBXT-yizhuangbei
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1524
+        width: 160
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZD-_0000_shanbi
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1858
+        width: 66
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZD-_0001_nuqi
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 892
+        width: 89
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZD-_0001_nuqi_kongbai
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 898
+        width: 89
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZD-_0002_nuqicao
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1353
+        width: 141
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZD-_0003_guang
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 469
+        width: 344
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZD-_0033
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 875
+        width: 410
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZD-boss
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 726
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZD-ditu
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1305
+        width: 750
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZD-laba
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1206
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZD-liaotian3
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 784
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZD-shezhi
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 624
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZD-xuecao
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1328
+        width: 140
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZD-xuetiao
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 934
+        width: 93
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZD-xuetiao2
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 944
+        width: 93
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZD-xuetiao3
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1207
+        width: 93
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZD-xuetiao4
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1203
+        width: 93
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-baoshi
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 730
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-baoshi2
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 692
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZJM-tongqian
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 663
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZM-biaoqian
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1077
+        width: 84
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZM-biaoqian2
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1108
+        width: 84
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZM-biaoqian3
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1139
+        width: 84
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZM-biaoqian4
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1274
+        width: 84
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZM-jifen
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 773
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

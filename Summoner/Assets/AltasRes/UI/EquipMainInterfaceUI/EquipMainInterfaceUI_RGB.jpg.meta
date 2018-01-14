@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: f5996820a1359d34d91c3a2f16d429ff
+timeCreated: 1513045485
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: JS-SZ-bg
+    21300002: JS-anniu
+    21300004: JS-baoshi1
+    21300006: JS-baoshi2
+    21300008: JS-baoshi3
+    21300010: JS-baoshi4
+    21300012: JS-baoshi5
+    21300014: JS-bg
+    21300016: JS-jiantou
+    21300018: JS-jineng
+    21300020: JS-kuang2
+    21300022: JS-kuangkuang
+    21300024: JS-meishuzi
+    21300026: JS-qiehuan
+    21300028: JS-suo
+    21300030: JS-SZ-fenge
+    21300032: JS-SZ-goumai
+    21300034: JS-SZ-goumai2
+    21300036: JS-SZ-kejihuo
+    21300038: JS-SZ-kuang
+    21300040: JS-SZ-weijihuo
+    21300042: JS-SZ-yijihuo
+    21300044: JS-tiao2
+    21300046: ZBXT-kehecheng
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JS-SZ-bg
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1107
+        width: 896
+        height: 939
+      alignment: 0
+      pivot: {x: 448, y: 469.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-anniu
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1694
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 21, y: 19.5}
+      border: {x: 17, y: 14, z: 16, w: 9}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-baoshi1
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1887
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 5, y: 5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-baoshi2
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1891
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 5, y: 5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-baoshi3
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1899
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 5, y: 5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-baoshi4
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1911
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 5, y: 5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-baoshi5
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1923
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 5, y: 5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-bg
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 531
+        width: 697
+        height: 574
+      alignment: 0
+      pivot: {x: 348.5, y: 287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-jiantou
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1735
+        width: 36
+        height: 96
+      alignment: 0
+      pivot: {x: 18, y: 48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-jineng
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1571
+        width: 36
+        height: 67
+      alignment: 0
+      pivot: {x: 18, y: 33.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-kuang2
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1565
+        width: 49
+        height: 127
+      alignment: 0
+      pivot: {x: 24.5, y: 63.5}
+      border: {x: 20, y: 15, z: 20, w: 12}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-kuangkuang
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1935
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 55.5, y: 55.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-meishuzi
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1903
+        width: 110
+        height: 30
+      alignment: 0
+      pivot: {x: 55, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-qiehuan
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1640
+        width: 65
+        height: 68
+      alignment: 0
+      pivot: {x: 32.5, y: 34}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-suo
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1833
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 16.5, y: 16.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-SZ-fenge
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 722
+        width: 210
+        height: 48
+      alignment: 0
+      pivot: {x: 105, y: 24}
+      border: {x: 90, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-SZ-goumai
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1739
+        width: 76
+        height: 28
+      alignment: 0
+      pivot: {x: 38, y: 14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-SZ-goumai2
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1769
+        width: 78
+        height: 28
+      alignment: 0
+      pivot: {x: 39, y: 14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-SZ-kejihuo
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1868
+        width: 88
+        height: 33
+      alignment: 0
+      pivot: {x: 44, y: 16.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-SZ-kuang
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 772
+        width: 225
+        height: 333
+      alignment: 0
+      pivot: {x: 112.5, y: 166.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-SZ-weijihuo
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1833
+        width: 85
+        height: 33
+      alignment: 0
+      pivot: {x: 42.5, y: 16.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-SZ-yijihuo
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1799
+        width: 83
+        height: 32
+      alignment: 0
+      pivot: {x: 41.5, y: 16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: JS-tiao2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 477
+        width: 690
+        height: 52
+      alignment: 0
+      pivot: {x: 345, y: 26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZBXT-kehecheng
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1710
+        width: 75
+        height: 27
+      alignment: 0
+      pivot: {x: 37.5, y: 13.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
