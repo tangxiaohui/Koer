@@ -420,6 +420,7 @@
     <Compile Include="Assets\Scripts\Logic\HomeUI\WallpaperUI.cs" />
     <Compile Include="Assets\Scripts\Logic\Launcher.cs" />
     <Compile Include="Assets\Scripts\Logic\LoginUI\AccountUI.cs" />
+    <Compile Include="Assets\Scripts\NetWork\net.cs" />
     <Compile Include="Assets\Scripts\TEXT.cs" />
     <Compile Include="Assets\Scripts\UI\DepthUtils.cs" />
     <Compile Include="Assets\Scripts\UI\Empty4Raycast.cs" />
