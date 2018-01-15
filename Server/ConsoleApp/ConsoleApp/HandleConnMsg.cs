@@ -21,13 +21,12 @@ public partial class HandleConnMsg
         if(DataMgr.instance.Register(id, pw))
         {
             protocol.AddInt(0);
+            DataMgr.instance.CreatePlayer(id);
         }
         else
         {
             protocol.AddInt(-1);
         }
-
-        DataMgr.instance.CreatePlayer(id);
         conn.Send(protocol);
     }
 

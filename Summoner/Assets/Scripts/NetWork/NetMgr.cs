@@ -15,7 +15,7 @@ public class NetMgr
     public static ProtocolBase GetHeatBeatProtocol()
     {
         ProtocolBytes protocol = new ProtocolBytes();
-        protocol.AddString("HeartBeat");
+        protocol.AddString("HeatBeat");
         return protocol;
     }
 }

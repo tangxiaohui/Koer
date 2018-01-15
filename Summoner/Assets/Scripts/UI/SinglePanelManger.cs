@@ -76,6 +76,7 @@ public class SinglePanelManger : SingleInstance<SinglePanelManger>
         AddGame<HomeUI>(typeof(HomeUI), "HomeUI/HomeUI", EUICanvas.EUICanvas_Normal);
         AddGame<BattleUI>(typeof(BattleUI), "BattleUI/BattleUI", EUICanvas.EUICanvas_Normal);
         AddGame<WallpaperUI>(typeof(WallpaperUI), "HomeUI/WallpaperUI", EUICanvas.EUICanvas_Normal);
+		AddGame<RegistUI> (typeof(RegistUI), "LoginUI/RegistUI", EUICanvas.EUICanvas_Normal);
         //AddGame<GuideUI>(typeof(GuideUI), "GuideUI", EUICanvas.EUICanvas_Top);
 
         //#endregion
@@ -315,6 +316,19 @@ public class SinglePanelManger : SingleInstance<SinglePanelManger>
             return Get<WallpaperUI>();
         }
     }
+
+	public RegistUI registUI
+	{
+		get
+		{ 
+			return Get<RegistUI> ();
+		}
+	}
+
+	public void ShowRegistUI()
+	{
+		UIManager.Instance.OpenUI (registUI);
+	}
 
     public void ShowWallpaperUI()
     {

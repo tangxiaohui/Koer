@@ -32,7 +32,7 @@ public class Connection
         {
             socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             socket.Connect(host, port);
-            socket.BeginReceive(readBuff, buffCount, BUFFER_SIZE - buffCount, SocketFlags.None, ReceiveCb, readBuff);
+			socket.BeginReceive(readBuff, 0, BUFFER_SIZE, SocketFlags.None, ReceiveCb, null);
             Debug.Log("连接成功");
             status = Status.Connected;
             return true;
@@ -65,7 +65,7 @@ public class Connection
             int count = socket.EndReceive(ar);
             buffCount = buffCount + count;
             ProcessData();
-            socket.BeginReceive(readBuff, buffCount, BUFFER_SIZE - buffCount, SocketFlags.None, ReceiveCb, readBuff);
+			socket.BeginReceive(readBuff, buffCount, BUFFER_SIZE - buffCount, SocketFlags.None, ReceiveCb, null);
         }
         catch (Exception e)
         {
@@ -109,7 +109,7 @@ public class Connection
         byte[] length = BitConverter.GetBytes(b.Length);
         byte[] sendbuff = length.Concat(b).ToArray();
         socket.Send(sendbuff);
-        Debug.Log("发送消息 " + protocol.GetDesc());
+		Debug.Log("发送消息 " + protocol.GetName());
         return true;
     }
 

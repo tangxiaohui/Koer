@@ -201,7 +201,7 @@ public class ServNet
         string methodName = "Msg" + name;
         if (conn.player == null || name == "HeatBeat" || name == "Logout")
         {
-            MethodInfo mm = handleConnMsg.GetType().GetMethod(methodName);
+               MethodInfo mm = handleConnMsg.GetType().GetMethod(methodName);
             if (mm == null)
             {
                 string str = "警告 ：HandleMsg 没有处理连接的方法";
@@ -235,10 +235,11 @@ public class ServNet
         try
         {
             conn.socket.BeginSend(sendbuff, 0, sendbuff.Length, SocketFlags.None, null, null);
+            Console.WriteLine("发送消息：" + protocol.GetName() + "To:" + conn.GetAdress());
         }
         catch (Exception e)
         {
-            Console.WriteLine("发送消息" + conn.GetAdress() + ":" + e.Message);
+            Console.WriteLine("发送消息：" + conn.GetAdress() + ":" + e.Message);
         }
     }
 

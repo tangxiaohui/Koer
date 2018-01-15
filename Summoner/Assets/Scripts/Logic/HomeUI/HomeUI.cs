@@ -37,7 +37,7 @@ public class HomeUI : UIBase {
 
     protected void UpdateScoll(int index, GameObject go)
     {
-        Debug.Log("index:" + index);
+        //Debug.Log("index:" + index);
 
         SinglePanelManger.Instance.ShowWallpaperUI();
     }

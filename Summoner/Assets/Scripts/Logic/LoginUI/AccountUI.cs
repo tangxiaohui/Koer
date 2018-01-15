@@ -9,6 +9,7 @@ public class AccountUI : UIBase
     public UIText FogetPassWord = null;
     public UIButton SureButton = null;
     public UIScrollView AccountList = null;
+	public UIButton RegisterButton = null;
 
     private void Start()
     {
@@ -17,6 +18,9 @@ public class AccountUI : UIBase
         FogetPassWord = Utility.GameUtility.FindDeepChild<UIText>(gameObject, "FogetPassWord");
         SureButton = Utility.GameUtility.FindDeepChild<UIButton>(gameObject, "SureButton");
         AddClick(SureButton.gameObject, OnClickPopBtn);
+
+		RegisterButton = Utility.GameUtility.FindDeepChild<UIButton> (gameObject, "RegisterButton");
+		AddClick (RegisterButton.gameObject, OnClickRegisterButton);
 
         AccountList = Utility.GameUtility.FindDeepChild<UIScrollView>(gameObject, "Account");
     }
@@ -27,6 +31,12 @@ public class AccountUI : UIBase
         SinglePanelManger.Instance.ShowHomeUI();
         CloseUI();
     }
+
+	private void OnClickRegisterButton(GameObject obj)
+	{
+		SinglePanelManger.Instance.ShowRegistUI();
+		CloseUI();
+	}
 
     public override void OpenUI()
     {

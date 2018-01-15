@@ -155,7 +155,7 @@ public class ClientProxy : MonoBehaviour
     private void Initalize()
     {
 #if UNITY_STANDALONE_WIN
-        Screen.SetResolution(375,667 , false);
+        Screen.SetResolution(750,1334 , false);
 #endif
         m_localVersion.Initalize();
         m_ServerNoticeXml.Initalize();
