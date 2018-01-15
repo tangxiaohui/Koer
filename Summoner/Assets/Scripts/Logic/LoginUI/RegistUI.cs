@@ -16,7 +16,7 @@ public class RegistUI : UIBase {
 		AccountText = Utility.GameUtility.FindDeepChild<UIInputField>(gameObject, "AccountInputField");
 		PasswordText = Utility.GameUtility.FindDeepChild<UIInputField> (gameObject, "PassWordInputField");
 		RepeatePassInputField = Utility.GameUtility.FindDeepChild<UIInputField> (gameObject, "RepeatPassWordInputField");
-		AccountText.contentType = UnityEngine.UI.InputField.ContentType.IntegerNumber;
+		AccountText.contentType = UnityEngine.UI.InputField.ContentType.Custom;
 		PasswordText.contentType = UnityEngine.UI.InputField.ContentType.Password;
 		RepeatePassInputField.contentType = UnityEngine.UI.InputField.ContentType.Password;
 		BackBtn = Utility.GameUtility.FindDeepChild<UIButton> (gameObject, "BackBtn");
@@ -32,24 +32,35 @@ public class RegistUI : UIBase {
 
 	private void OnClickSureBtn(GameObject obj)
 	{
-		if (AccountText.text == "" || PasswordText.text == "" || RepeatePassInputField.text == "")
-		{
-			Debug.Log ("用户名密码不能为空");
-			return;
-		}
-
-		if (NetMgr.srvConn.status != Connection.Status.Connected) {
-			Debug.Log ("网络未连接");
-			return;
-		}
-
-		ProtocolBytes protocol = new ProtocolBytes ();
-		protocol.AddString ("Register");
-		protocol.AddString (AccountText.text);
-		protocol.AddString (PasswordText.text);
-		Debug.Log ("发送 " + protocol.GetDesc ());
-		NetMgr.srvConn.Send (protocol, OnRegisterBack);
-	}
+        //用户名密码为空
+        if (AccountText.text == "" || PasswordText.text == "")
+        {
+            Debug.Log("用户名密码不能为空!");
+            return;
+        }
+        //两次密码不同
+        if (PasswordText.text != RepeatePassInputField.text)
+        {
+            Debug.Log("两次输入的密码不同！");
+            return;
+        }
+        //连接服务器
+        if (NetMgr.srvConn.status != Connection.Status.Connected)
+        {
+            string host = "127.0.0.1";
+            int port = 1234;
+            NetMgr.srvConn.proto = new ProtocolBytes();
+            if (!NetMgr.srvConn.Connect(host, port))
+                Debug.Log("连接服务器失败!");
+        }
+        //发送
+        ProtocolBytes protocol = new ProtocolBytes();
+        protocol.AddString("Register");
+        protocol.AddString(AccountText.text);
+        protocol.AddString(PasswordText.text);
+        Debug.Log("发送 " + protocol.GetDesc());
+        NetMgr.srvConn.Send(protocol, OnRegisterBack);
+    }
 	public void OnRegisterBack(ProtocolBase protocol)
 	{
 		ProtocolBytes proto = (ProtocolBytes)protocol;

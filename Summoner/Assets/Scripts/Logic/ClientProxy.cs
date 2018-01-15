@@ -169,6 +169,7 @@ public class ClientProxy : MonoBehaviour
         {
             m_gameState.Update(Time.deltaTime);
         }
+        NetMgr.Update();
         UpdateQuit();
     }
 

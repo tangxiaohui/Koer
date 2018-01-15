@@ -23,6 +23,8 @@ public class GameStart
         UIManager.Instance.Initalize();
         Utility_Profiler.EndSample();
 
+        NetMgr.srvConn.proto = new ProtocolBytes();
+        NetMgr.srvConn.Connect("127.0.0.1", 1234);
 
 		if (clientProxy == null) 
 		{

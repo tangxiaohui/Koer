@@ -1,0 +1,6 @@
+D:\AWork\Chapter12\Serv\Serv\bin\Debug\Serv.exe
+D:\AWork\Chapter12\Serv\Serv\bin\Debug\Serv.pdb
+D:\AWork\Chapter12\Serv\Serv\bin\Debug\MySql.Data.dll
+D:\AWork\Chapter12\Serv\Serv\obj\x86\Debug\Serv.csproj.CoreCompileInputs.cache
+D:\AWork\Chapter12\Serv\Serv\obj\x86\Debug\Serv.exe
+D:\AWork\Chapter12\Serv\Serv\obj\x86\Debug\Serv.pdb
