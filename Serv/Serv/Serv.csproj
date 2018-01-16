@@ -43,13 +43,17 @@
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="core\Conn.cs" />
     <Compile Include="core\DataMgr.cs" />
+    <Compile Include="core\DataRead.cs" />
+    <Compile Include="core\FileUtils.cs" />
     <Compile Include="core\Main.cs" />
     <Compile Include="core\Player.cs" />
     <Compile Include="core\ProtocolBase.cs" />
     <Compile Include="core\ProtocolBytes.cs" />
     <Compile Include="core\ProtocolStr.cs" />
+    <Compile Include="core\StringUtils.cs" />
     <Compile Include="core\Sys.cs" />
     <Compile Include="core\ServNet.cs" />
+    <Compile Include="Generate\Cards.cs" />
     <Compile Include="Logic\handleConnMsg.cs" />
     <Compile Include="Logic\handlePlayerEvent.cs" />
     <Compile Include="Logic\handlePlayerMsg.cs" />

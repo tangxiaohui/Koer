@@ -12,6 +12,10 @@ namespace Serv
 			servNet.proto = new ProtocolBytes ();
 			servNet.Start("127.0.0.1",1234);
 
+            Cards card = Cards.Get(1);
+
+            Console.WriteLine("AAAAAAA:" + card.Power);
+
 			while(true)
 			{
 				string str = Console.ReadLine();

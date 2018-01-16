@@ -76,7 +76,7 @@ public class AccountUI : UIBase
         }
         else
         {
-            SinglePanelManger.Instance.PushTips(TextManager.Instance.GetString(TEXTS.Text_LoginSuccess));
+            SinglePanelManger.Instance.PushTips(TextManager.Instance.GetString(TEXTS.Text_LoginFail));
             Debug.Log("登录失败");
         }
     }

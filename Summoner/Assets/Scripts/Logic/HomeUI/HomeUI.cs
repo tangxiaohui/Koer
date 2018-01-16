@@ -13,6 +13,8 @@ public class HomeUI : UIBase {
         BattleBtn = Utility.GameUtility.FindDeepChild<UIButton>(gameObject, "PlayBtn");
         AddClick(BattleBtn.gameObject, OnClickBattleBtn);
         ClearContentSroll(MyPlayer.Instance.data.CardList.Count);
+        Cards Test = Cards.Get(1);
+        Debug.Log("-----------------:" + Test.Name);
     }
 
     public void OnClickBattleBtn(GameObject obj)

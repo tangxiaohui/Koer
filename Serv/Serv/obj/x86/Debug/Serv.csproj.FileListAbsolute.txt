@@ -10,4 +10,3 @@ D:\AW\K\Serv\Serv\bin\Debug\MySql.Data.dll
 D:\AW\K\Serv\Serv\obj\x86\Debug\Serv.csproj.CoreCompileInputs.cache
 D:\AW\K\Serv\Serv\obj\x86\Debug\Serv.exe
 D:\AW\K\Serv\Serv\obj\x86\Debug\Serv.pdb
-D:\AW\K\Serv\Serv\obj\x86\Debug\Serv.csprojResolveAssemblyReference.cache
