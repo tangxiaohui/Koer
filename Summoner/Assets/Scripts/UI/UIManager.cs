@@ -333,9 +333,9 @@ public class UIManager : SingleInstance<UIManager>
     public void InitalizePreLoadUI()
     {
         m_preCompeleteUIList.Add(new UIPreLoad("LoginUI/RegistUI", EUIType.EUIType_Home, true, EUICanvas.EUICanvas_Normal, true));
-        m_preCompeleteUIList.Add(new UIPreLoad("HomeUI/HomeUI", EUIType.EUIType_Home, true, EUICanvas.EUICanvas_Normal, true));
-        m_preCompeleteUIList.Add(new UIPreLoad("BattleUI/BattleUI", EUIType.EUIType_Home, true, EUICanvas.EUICanvas_Normal, true));
-        m_preCompeleteUIList.Add(new UIPreLoad("HomeUI/WallpaperUI", EUIType.EUIType_Home, true, EUICanvas.EUICanvas_Normal, true));
+        m_preCompeleteUIList.Add(new UIPreLoad("HomeUI/HomeUI", EUIType.EUIType_Home, false, EUICanvas.EUICanvas_Normal, true));
+        m_preCompeleteUIList.Add(new UIPreLoad("BattleUI/BattleUI", EUIType.EUIType_Home, false, EUICanvas.EUICanvas_Normal, true));
+        m_preCompeleteUIList.Add(new UIPreLoad("HomeUI/WallpaperUI", EUIType.EUIType_Home, false, EUICanvas.EUICanvas_Normal, true));
         m_preCompeleteUIList.Add(new UIPreLoad("LoginUI/AccountUI", EUIType.EUIType_Home, true, EUICanvas.EUICanvas_Normal, true));
         m_preCompeleteUIList.Add(new UIPreLoad("LoginUI/ResigsterSucceesUI", EUIType.EUIType_LoginBase, true, EUICanvas.EUICanvas_Normal, true));
         for (int i = 0; i < m_preCompeleteUIList.Count; ++i)

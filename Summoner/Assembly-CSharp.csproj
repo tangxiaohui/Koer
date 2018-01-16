@@ -119,6 +119,8 @@
      <Compile Include="Assets\Scripts\GameState\GameStateEnum.cs" />
      <Compile Include="Assets\Scripts\GameState\gxGameState.cs" />
      <Compile Include="Assets\Scripts\GameState\StateMachine.cs" />
+     <Compile Include="Assets\Scripts\Generate\ActivityData.cs" />
+     <Compile Include="Assets\Scripts\Generate\TEXT.cs" />
      <Compile Include="Assets\Scripts\Interfaces\ICommand.cs" />
      <Compile Include="Assets\Scripts\Interfaces\ICommodMessage.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IComponent.cs" />
@@ -139,13 +141,13 @@
      <Compile Include="Assets\Scripts\Logic\Launcher.cs" />
      <Compile Include="Assets\Scripts\Logic\LoginUI\AccountUI.cs" />
      <Compile Include="Assets\Scripts\Logic\LoginUI\RegistUI.cs" />
+     <Compile Include="Assets\Scripts\Logic\LoginUI\ResigsterSucceesUI.cs" />
      <Compile Include="Assets\Scripts\NetWork\Connection.cs" />
      <Compile Include="Assets\Scripts\NetWork\MsgDistribution.cs" />
      <Compile Include="Assets\Scripts\NetWork\NetMgr.cs" />
      <Compile Include="Assets\Scripts\NetWork\ProtocolBase.cs" />
      <Compile Include="Assets\Scripts\NetWork\ProtocolBytes.cs" />
      <Compile Include="Assets\Scripts\NetWork\ProtocolStr.cs" />
-     <Compile Include="Assets\Scripts\TEXT.cs" />
      <Compile Include="Assets\Scripts\UI\DepthUtils.cs" />
      <Compile Include="Assets\Scripts\UI\Empty4Raycast.cs" />
      <Compile Include="Assets\Scripts\UI\GuideHighlightMask.cs" />

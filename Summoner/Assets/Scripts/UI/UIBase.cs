@@ -177,7 +177,7 @@ public class UIBase : Base
     }
 
     #region 事件
-    public void AddListClick(GameObject go)
+    public void AddListClick(GameObject go, UGUIEventListener.VoidDelegate func)
     {
         if (go == null) return;
         Graphic graphic = go.GetComponent<Graphic>();
@@ -189,11 +189,11 @@ public class UIBase : Base
         UGUIEventForList listerner = Utility.GameUtility.GetOrAddComponent<UGUIEventForList>(go);
         listerner.onClick = delegate (GameObject obj)
         {
-            OnClick(obj);
+            OnClick(obj, func);
         };
     }
 
-    public void AddListDown(GameObject go)
+    public void AddListDown(GameObject go, UGUIEventListener.VoidDelegate func)
     {
         if (go == null) return;
         Graphic graphic = go.GetComponent<Graphic>();
@@ -204,11 +204,11 @@ public class UIBase : Base
         UGUIEventForList listerner = Utility.GameUtility.GetOrAddComponent<UGUIEventForList>(go);
         listerner.onDown = delegate (GameObject obj)
         {
-            OnClick(obj);
+            OnClick(obj, func);
         };
     }
 
-    public void AddListUp(GameObject go)
+    public void AddListUp(GameObject go, UGUIEventListener.VoidDelegate func)
     {
         if (go == null) return;
         Graphic graphic = go.GetComponent<Graphic>();
@@ -219,11 +219,11 @@ public class UIBase : Base
         UGUIEventForList listerner = Utility.GameUtility.GetOrAddComponent<UGUIEventForList>(go);
         listerner.onUp = delegate (GameObject obj)
         {
-            OnClick(obj);
+            OnClick(obj, func);
         };
     }
 
-    public void AddListPress(GameObject go)
+    public void AddListPress(GameObject go, UGUIEventListener.VoidDelegate func)
     {
         if (go == null) return;
         Graphic graphic = go.GetComponent<Graphic>();
@@ -234,25 +234,7 @@ public class UIBase : Base
         UGUIEventForList listerner = Utility.GameUtility.GetOrAddComponent<UGUIEventForList>(go);
         listerner.onPress = delegate (GameObject obj)
         {
-            OnClick(obj);
-        };
-    }
-
-    /// <summary>
-    /// 添加单击事件
-    /// </summary>
-    public void AddClick(GameObject go)
-    {
-        if (go == null) return;
-        Graphic graphic = go.GetComponent<Graphic>();
-        if (graphic != null)
-        {
-            graphic.raycastTarget = true;
-        }
-        UGUIEventListener listerner = UGUIEventListener.Get(go);
-        listerner.onClick = delegate (GameObject obj)
-        {
-            OnClick(obj);
+            OnClick(obj, func);
         };
     }
 
@@ -317,12 +299,13 @@ public class UIBase : Base
         listerner.onUp = func;
     }
 
-    protected void OnClick(GameObject go)
+    protected void OnClick(GameObject go, UGUIEventListener.VoidDelegate func)
     {
-        if (go == null)
+        if (go == null || func == null)
         {
             return;
         }
+        func(go);
     }
     public void AddDrag(GameObject go)
     {

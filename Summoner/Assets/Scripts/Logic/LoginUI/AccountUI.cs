@@ -63,11 +63,15 @@ public class AccountUI : UIBase
         int start = 0;
         string protoName = proto.GetString(start, ref start);
         int ret = proto.GetInt(start, ref start);
+        List<int> list = proto.GetIntList(start, ref start);
+        Debug.Log("list count :" + list.Count.ToString());
         if (ret == 0)
         {
             SinglePanelManger.Instance.PushTips(TextManager.Instance.GetString(TEXTS.Text_LoginSuccess));
             Debug.Log("登录成功");
             CloseUI();
+            MyPlayer.Instance.id = AccountText.text;
+            MyPlayer.Instance.data = new PlayerData(list);
             UIManager.Instance.OpenUI(EUIName.HomeUI);
         }
         else

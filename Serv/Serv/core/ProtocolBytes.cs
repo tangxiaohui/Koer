@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 
 //字节流协议模型
@@ -87,6 +88,24 @@ public class ProtocolBytes : ProtocolBase
 		else
 			bytes = bytes.Concat(numBytes).ToArray();
 	}
+
+    public void AddIntList(List<int> list)
+    {
+        foreach(int i in list)
+        {
+            AddInt(i);
+        }
+    }
+
+    public List<int> GetIntList(int start, ref int end)
+    {
+        List<int> list = new List<int>();
+        while (bytes.Length >= start + sizeof(Int32))
+        {
+            list.Add(GetInt(start, ref start));
+        }
+        return list;
+    }
 	
 	public int GetInt(int start, ref int end)
 	{

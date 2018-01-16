@@ -201,7 +201,40 @@ public class DataMgr
 			return playerData;
 		}
 	}
+    //给一个玩家增加卡牌
+    public bool AddCardForPlayer(string id, int CardId)
+    {
+        PlayerData playerData = GetPlayerData(id);
+        if (playerData.CardList.Contains(CardId))
+            return false;
+        playerData.CardList.Add(CardId);
+        Player player = new Player(id, null);
+        player.data = playerData;
 
+        return SavePlayer(player);
+    }
+    //取出一个玩家的卡牌
+    public bool DelCardForPlayer(string id, int CardId)
+    {
+        PlayerData playerData = GetPlayerData(id);
+        if (playerData.CardList.Contains(CardId))
+            return false;
+        playerData.CardList.Remove(CardId);
+        Player player = new Player(id, null);
+        player.data = playerData;
+
+        return SavePlayer(player);
+    }
+
+    //获取一个玩家数据
+    public Player GetPlayerById(string id)
+    {
+        Player player = new Player(id, null);
+        PlayerData playerData = GetPlayerData(id);
+        player.data = playerData;
+
+        return player;
+    }
 
 	//保存角色
 	public bool SavePlayer(Player player)

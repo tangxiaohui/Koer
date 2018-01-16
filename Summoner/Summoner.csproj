@@ -405,6 +405,10 @@
     <Compile Include="Assets\Scripts\Common\ZDepthUtils.cs" />
     <Compile Include="Assets\Scripts\ComponentExtension\DGExtension.cs" />
     <Compile Include="Assets\Scripts\ComponentExtension\RectTransformExtension.cs" />
+    <Compile Include="Assets\Scripts\Data\EnemyPlayer.cs" />
+    <Compile Include="Assets\Scripts\Data\MyPlayer.cs" />
+    <Compile Include="Assets\Scripts\Data\Player.cs" />
+    <Compile Include="Assets\Scripts\Data\PlayerData.cs" />
     <Compile Include="Assets\Scripts\GameSceneManager\GameSceneManager.cs" />
     <Compile Include="Assets\Scripts\GameState\GameLoginState.cs" />
     <Compile Include="Assets\Scripts\GameState\GameStateEnum.cs" />

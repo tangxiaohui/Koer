@@ -13,7 +13,7 @@ public class WallpaperUI : UIBase {
         m_sroll = Utility.GameUtility.FindDeepChild<UIScrollView>(gameObject, "scrollview");
         CloseBtn = Utility.GameUtility.FindDeepChild<UIButton>(gameObject, "CloseBtn");
         AddClick(CloseBtn.gameObject, OnClickBattleBtn);
-        ClearContentSroll(250);
+        ClearContentSroll(MyPlayer.Instance.data.CardList.Count);
     }
 
     public void OnClickBattleBtn(GameObject obj)
@@ -26,7 +26,7 @@ public class WallpaperUI : UIBase {
     public void ClearContentSroll(int count)
     {
         m_sroll.ClearContent();
-        m_sroll.Col = 3;
+        m_sroll.Col = 1;
         //m_sroll.horizontal = false;
         m_sroll.InitializeItem = UpdateScoll;
         for (int i = 0; i < count; ++i)
@@ -45,12 +45,13 @@ public class WallpaperUI : UIBase {
     {
         base.OpenUI();
         gameObject.SetActive(true);
+
+        Initalize();
     }
 
     public override void CloseUI()
     {
         base.CloseUI();
-
         gameObject.SetActive(false);
     }
 }

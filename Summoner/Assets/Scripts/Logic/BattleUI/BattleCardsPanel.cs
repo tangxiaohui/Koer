@@ -15,15 +15,39 @@ public class BattleCardsPanel : MonoBehaviour {
         m_sroll.ClearContent();
         m_sroll.InitUnChose = InitUnChose;
         m_sroll.InitChosed = InitChosed;
-        m_sroll.AddItem(108);
+        m_sroll.InitializeItem = InitCardItem;
+        m_sroll.AddItem(MyPlayer.Instance.data.CardList.Count);
+    }
+
+    public void InitCardItem(int index, GameObject item)
+    {
+        UIText name = Utility.GameUtility.FindDeepChild<UIText>(item, "Name");
+        name.text = MyPlayer.Instance.data.CardList[index].ToString();
     }
 
     public void InitUnChose(GameObject obj)
     {
-
+        UIText name = Utility.GameUtility.FindDeepChild<UIText>(obj, "Name");
+        name.color = Color.gray;
+        Transform mask = Utility.GameUtility.FindDeepChild(obj, "mask");
+        mask.gameObject.SetActive(true);
     }
 
     public void InitChosed(GameObject obj)
+    {
+        UIText name = Utility.GameUtility.FindDeepChild<UIText>(obj, "Name");
+        name.color = Color.white;
+        Transform mask = Utility.GameUtility.FindDeepChild(obj, "mask");
+        mask.gameObject.SetActive(false);
+    }
+
+    public void RefreshCards()
+    {
+        m_sroll.ClearContent();
+        m_sroll.AddItem(MyPlayer.Instance.data.CardList.Count);
+    }
+
+    private void RefreshCurrCardInfo()
     {
 
     }

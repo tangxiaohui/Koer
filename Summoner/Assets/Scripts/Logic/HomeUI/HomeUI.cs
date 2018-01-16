@@ -12,14 +12,15 @@ public class HomeUI : UIBase {
         m_sroll = Utility.GameUtility.FindDeepChild<UIScrollView>(gameObject, "scrollview");
         BattleBtn = Utility.GameUtility.FindDeepChild<UIButton>(gameObject, "PlayBtn");
         AddClick(BattleBtn.gameObject, OnClickBattleBtn);
-        ClearContentSroll(250);
+        ClearContentSroll(MyPlayer.Instance.data.CardList.Count);
     }
 
     public void OnClickBattleBtn(GameObject obj)
     {
         Debug.Log("OnClickBattleBtn!");
-        SinglePanelManger.Instance.ShowBattleUI();
-        CloseUI();
+        //UIManager.Instance.OpenUI(EUIName.BattleUI);
+        //CloseUI();
+        SerachEnemy();
     }
 
     public void ClearContentSroll(int count)
@@ -38,8 +39,14 @@ public class HomeUI : UIBase {
     protected void UpdateScoll(int index, GameObject go)
     {
         //Debug.Log("index:" + index);
+        UIText name = Utility.GameUtility.FindDeepChild<UIText>(go, "name");
+        name.text = MyPlayer.Instance.data.CardList[index].ToString();
+        AddListClick(go, OnClickItem);
+    }
 
-        SinglePanelManger.Instance.ShowWallpaperUI();
+    private void OnClickItem(GameObject obj)
+    {
+        UIManager.Instance.OpenUI(EUIName.WallpaperUI);
     }
 
     public override void OpenUI()
@@ -54,5 +61,35 @@ public class HomeUI : UIBase {
         base.CloseUI();
 
         gameObject.SetActive(false);
+    }
+
+    public void SerachEnemy()
+    {
+        ProtocolBytes protocol = new ProtocolBytes();
+        protocol.AddString("SerachEnemy");
+        Debug.Log("发送 " + protocol.GetDesc());
+        NetMgr.srvConn.Send(protocol, OnSerachEnemyBack);
+    }
+
+    public void OnSerachEnemyBack(ProtocolBase protocol)
+    {
+        ProtocolBytes proto = (ProtocolBytes)protocol;
+        int start = 0;
+        string protoName = proto.GetString(start, ref start);
+        string id = proto.GetString(start, ref start);
+        List<int> cardList = proto.GetIntList(start, ref start);
+        EnemyPlayer.Instance.id = id;
+        EnemyPlayer.Instance.data.CardList = cardList;
+        
+        if (id.Length > 0)
+        {
+            SinglePanelManger.Instance.PushTips("找到敌人" + EnemyPlayer.Instance.id);
+            UIManager.Instance.OpenUI(EUIName.BattleUI);
+            CloseUI();
+        }
+        else
+        {
+            SinglePanelManger.Instance.PushTips("没有找到敌人");
+        }
     }
 }

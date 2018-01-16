@@ -151,17 +151,21 @@ public partial class HandlePlayerMsg
 		protocolRet.AddFloat (damage);
 		room.Broadcast (protocolRet);
 		//胜负判断
-		room.UpdateWin ();   //下一节实现
+		room.UpdateWin ();
 	}
 
+    public void MsgSerachEnemy(Player player, ProtocolBase protoBase)
+    {
+        int start = 0;
+        ProtocolBytes protocol = (ProtocolBytes)protoBase;
+        string protoName = protocol.GetString(start, ref start);
 
+        ProtocolBytes protocolRet = new ProtocolBytes();
+        protocolRet.AddString("SerachEnemy");
+        protocolRet.AddString("Test");
+        List<int> cardList = new List<int>() { 5, 6, 7, 8, 9, 10 };
+        protocolRet.AddIntList(cardList);
 
-
-
-
-
-
-
-
-
+        player.conn.Send(protocolRet);
+    }
 }
