@@ -146,7 +146,7 @@ public class UIBase : Base
         {
             m_bgList[i].SetActive(false);
         }
-        // OnDisable();
+        OnDisable();
     }
 
     public virtual void OpenUI()

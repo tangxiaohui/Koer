@@ -46,6 +46,7 @@ public class HomeUI : UIBase {
     {
         base.OpenUI();
         gameObject.SetActive(true);
+        Initalize();
     }
 
     public override void CloseUI()

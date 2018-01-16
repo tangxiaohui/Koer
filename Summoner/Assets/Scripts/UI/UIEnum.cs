@@ -33,3 +33,13 @@ public enum EUIType
     //其他类型----Other
     EUIType_Top = 20,
 }
+
+public static class EUIName
+{
+    public const string RegistUI = "RegistUI";
+    public const string AccountUI = "AccountUI";
+    public const string ResigsterSucceesUI = "ResigsterSucceesUI";
+    public const string HomeUI = "HomeUI";
+    public const string WallpaperUI = "WallpaperUI";
+    public const string BattleUI = "BattleUI";
+}

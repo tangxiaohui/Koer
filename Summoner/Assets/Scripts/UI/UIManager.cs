@@ -171,14 +171,23 @@ public class UIManagerCanvas
 public class UIPreLoad
 {
     public string uiPath;
-    public string luaPath;
     public EUIType eType;
     public bool useBack;
     public EUICanvas canvas;
     public bool isAutoReset;
     public bool preLoad;
     public object obj = null;
-  //  DealLuaObject(string uiPath, string luaPath, EUIType eType, bool useBack, EUICanvas canvas, bool isAutoReset, bool preLoad = false)
+    //  DealLuaObject(string uiPath, string luaPath, EUIType eType, bool useBack, EUICanvas canvas, bool isAutoReset, bool preLoad = false)
+
+    public UIPreLoad(string uiPath, EUIType eType, bool useBack, EUICanvas canvas, bool isAutoReset, bool preLoad = false)
+    {
+        this.uiPath = uiPath;
+        this.eType = eType;
+        this.useBack = useBack;
+        this.canvas = canvas;
+        this.isAutoReset = isAutoReset;
+        this.preLoad = preLoad;
+    }
 }
 
 public class UIManager : SingleInstance<UIManager>
@@ -221,6 +230,8 @@ public class UIManager : SingleInstance<UIManager>
             InitalizeCanvas();
             GameObject.DontDestroyOnLoad(gameObject);
         }
+
+        InitalizePreLoadUI();
     }
 
     protected void InitalizeCanvas()
@@ -247,49 +258,6 @@ public class UIManager : SingleInstance<UIManager>
             data.SetParent(tranform);
             m_canvasDic[eCanvas] = data;
         }
-    }
-
-    private void ChangeBattleView(bool isShow)
-    {
-        if (m_canvasDic[EUICanvas.EUICanvas_Move].transform.gameObject.activeSelf == isShow)
-            return;
-        m_canvasDic[EUICanvas.EUICanvas_Move].transform.gameObject.SetActive(isShow);
-    }
-
-    public void RegisterLuaObject(string luaPath, int index, string uiPath, bool isAutoReset, int eType, bool useBack,bool preLoad)
-    {
-        DealLuaObject(uiPath, luaPath, (EUIType)eType, useBack, (EUICanvas)index, isAutoReset,preLoad);
-    }
-
-    public void RegisterLuaObject(string luaPath, int index, string uiPath)
-    {
-       DealLuaObject(uiPath, luaPath, EUIType.EUIType_None, false, (EUICanvas)index, true);
-    }
-
-    public void RegisterLuaObject(string luaPath, int index, string uiPath, bool isAutoReset , EUIType eType)
-    {
-        DealLuaObject(uiPath, luaPath, eType, false, (EUICanvas)index, isAutoReset);
-    }
-
-    public void RegisterLuaObject(string luaPath, int index, string uiPath, bool isAutoReset, EUIType eType,bool useBack)
-    {
-        DealLuaObject(uiPath, luaPath, eType, useBack, (EUICanvas)index, isAutoReset);
-    }
-
-
-    public void RegisterLuaObject(string luaPath, int index, string uiPath, bool isAutoReset, int eType)
-    {
-        DealLuaObject(uiPath, luaPath, (EUIType)eType, false, (EUICanvas)index, isAutoReset);
-    }
-
-    public void RegisterLuaObject(string luaPath, int index, string uiPath, bool isAutoReset, int eType, bool useBack)
-    {
-       DealLuaObject(uiPath,luaPath,(EUIType)eType,useBack,(EUICanvas)index, isAutoReset);
-    }
-
-    public void RegisterLuaObject(string luaPath,int index,string uiPath,bool isAutoReset)
-    {
-        DealLuaObject(uiPath, luaPath, EUIType.EUIType_None, false, (EUICanvas)index, isAutoReset);
     }
 
     public void SetCanvas(UIBase ui, EUICanvas eType,bool isAutoReset = true)
@@ -364,36 +332,24 @@ public class UIManager : SingleInstance<UIManager>
 
     public void InitalizePreLoadUI()
     {
-        for(int i = 0; i < m_preCompeleteUIList.Count; ++i)
+        m_preCompeleteUIList.Add(new UIPreLoad("LoginUI/RegistUI", EUIType.EUIType_Home, true, EUICanvas.EUICanvas_Normal, true));
+        m_preCompeleteUIList.Add(new UIPreLoad("HomeUI/HomeUI", EUIType.EUIType_Home, true, EUICanvas.EUICanvas_Normal, true));
+        m_preCompeleteUIList.Add(new UIPreLoad("BattleUI/BattleUI", EUIType.EUIType_Home, true, EUICanvas.EUICanvas_Normal, true));
+        m_preCompeleteUIList.Add(new UIPreLoad("HomeUI/WallpaperUI", EUIType.EUIType_Home, true, EUICanvas.EUICanvas_Normal, true));
+        m_preCompeleteUIList.Add(new UIPreLoad("LoginUI/AccountUI", EUIType.EUIType_Home, true, EUICanvas.EUICanvas_Normal, true));
+        m_preCompeleteUIList.Add(new UIPreLoad("LoginUI/ResigsterSucceesUI", EUIType.EUIType_LoginBase, true, EUICanvas.EUICanvas_Normal, true));
+        for (int i = 0; i < m_preCompeleteUIList.Count; ++i)
         {
             UIPreLoad data = m_preCompeleteUIList[i];
-            DealLuaObject(data.uiPath, data.luaPath, data.eType, data.useBack, data.canvas, data.isAutoReset, false,data.obj);
+            RegisterUI(data.uiPath, data.eType, data.useBack, data.canvas, data.isAutoReset, false,data.obj);
         }
         m_preCompeleteUIList.Clear();
     }
-    protected void DealLuaObject(string uiPath, string luaPath, EUIType eType, bool useBack, EUICanvas canvas, bool isAutoReset, bool preLoad = false, object tempObj = null)
+    public void RegisterUI(string uiPath, EUIType eType, bool useBack, EUICanvas canvas, bool isAutoReset, bool preLoad = false, object tempObj = null)
     {
         string luaFileName = System.IO.Path.GetFileName(uiPath);
         if (m_uiDic.ContainsKey(luaFileName))
         {
-            return;
-        }
-
-        if (preLoad)
-        {
-            if (!isPreLoad(uiPath))
-            {
-                Res.ResourcesManager.Instance.AsyncLoadResource<GameObject>(uiPath, Res.ResourceType.UI, OnUICompelete);
-                UIPreLoad UIPreLoadData = new UIPreLoad();
-                UIPreLoadData.uiPath = uiPath;
-                UIPreLoadData.luaPath = luaPath;
-                UIPreLoadData.eType = eType;
-                UIPreLoadData.useBack = useBack;
-                UIPreLoadData.canvas = canvas;
-                UIPreLoadData.isAutoReset = isAutoReset;
-                UIPreLoadData.preLoad = preLoad;
-                m_preUIList.Add(UIPreLoadData);
-            }
             return;
         }
 
@@ -408,12 +364,37 @@ public class UIManager : SingleInstance<UIManager>
         }
         string name = obj.name.Replace("(Clone)", string.Empty);
         obj.name = name;
-        UIBase luaBase = obj.AddComponent<UIBase>();
-        luaBase.eUIType = eType;
-        luaBase.eUICanvas = canvas;
-        luaBase.useBack = useBack;
-        m_uiDic[luaFileName] = luaBase;
-        RegisterUI(luaBase, canvas, isAutoReset);
+        UIBase uiBase = null;
+        switch (luaFileName)
+        {
+            case EUIName.RegistUI:
+                uiBase = obj.AddComponent<RegistUI>();
+                break;
+            case EUIName.BattleUI:
+                uiBase = obj.AddComponent<BattleUI>();
+                break;
+            case EUIName.WallpaperUI:
+                uiBase = obj.AddComponent<WallpaperUI>();
+                break;
+            case EUIName.HomeUI:
+                uiBase = obj.AddComponent<HomeUI>();
+                break;
+            case EUIName.AccountUI:
+                uiBase = obj.AddComponent<AccountUI>();
+                break;
+            case EUIName.ResigsterSucceesUI:
+                uiBase = obj.AddComponent<ResigsterSucceesUI>();
+                break;
+            default:
+                uiBase = obj.AddComponent<UIBase>();
+                break;
+        }
+
+        uiBase.eUIType = eType;
+        uiBase.eUICanvas = canvas;
+        uiBase.useBack = useBack;
+        m_uiDic[luaFileName] = uiBase;
+        RegisterUI(uiBase, canvas, isAutoReset);
     }
 
     public bool isInitalize(string uiPath)
@@ -422,19 +403,20 @@ public class UIManager : SingleInstance<UIManager>
         return m_uiDic.ContainsKey(luaFileName);
     }
 
-    protected void RegisterUI(UIBase luaBase, EUICanvas eType, bool isAutoReset)
+    protected void RegisterUI(UIBase uiBase, EUICanvas eType, bool isAutoReset)
     {
         UIManagerCanvas canvas = null;
         if(m_canvasDic.TryGetValue(eType,out canvas))
         {
-            canvas.SetUI(luaBase.transform, isAutoReset);
-            if(luaBase != null)
+            canvas.SetUI(uiBase.transform, isAutoReset);
+            if(uiBase != null)
             {
-                if (luaBase.useBack)
+                if (uiBase.useBack)
                 {
-                    luaBase.SetOverrideSorting(true);
+                    uiBase.SetOverrideSorting(true);
                 }
-                luaBase.order = canvas.canvas.sortingOrder;
+                uiBase.order = canvas.canvas.sortingOrder;
+                uiBase.gameObject.SetActive(false);
             }
         }
     }
@@ -613,17 +595,7 @@ public class UIManager : SingleInstance<UIManager>
                     }
                 }
             }
-            if (ui.eUIType != EUIType.EUIType_LoginBase && eType != EUIType.EUIType_LoginBase && ui.eUIType != EUIType.EUIType_None && eType != EUIType.EUIType_None)
-            {
-                if (ui.eUIType == EUIType.EUIType_FightBase || (eType == EUIType.EUIType_FightBase) && ui.useBack)
-                {
-                    ChangeBattleView(true);
-                }
-                else
-                {
-                    ChangeBattleView(false);
-                } 
-            }
+
             if (ui.useBack == false && ui.eUIType < EUIType.EUIType_NoneBase)
             {
                 _haveFullUI[ui.eUIType] = true;

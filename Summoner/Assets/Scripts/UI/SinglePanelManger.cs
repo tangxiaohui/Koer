@@ -48,7 +48,7 @@ public class SinglePanelManger : SingleInstance<SinglePanelManger>
         Add<TipsUI>(typeof(TipsUI), "TipsUI", EUICanvas.EUICanvas_Top);
         Add<ServerNoticeUI>(typeof(ServerNoticeUI), "ServerNoticeUI", EUICanvas.EUICanvas_Normal, true, true); 
         Add<MessageBoxPanelUI>(typeof(MessageBoxPanelUI), "MessageBoxPanelUI", EUICanvas.EUICanvas_Top,true,true);
-        Add<AccountUI>(typeof(AccountUI), "LoginUI/AccountUI", EUICanvas.EUICanvas_Normal, true, true);
+        //Add<AccountUI>(typeof(AccountUI), "LoginUI/AccountUI", EUICanvas.EUICanvas_Normal, true, true);
         //Add<BlackUI>(typeof(BlackUI), "BlackUI", EUICanvas.EUICanvas_Top);
         //Add<ShieldUI>(typeof(ShieldUI), "ShieldUI", EUICanvas.EUICanvas_Top);
         #endregion
@@ -73,10 +73,12 @@ public class SinglePanelManger : SingleInstance<SinglePanelManger>
     {
         //#region WPTODO: 从Game开始就初始化的UI，为什么扔这里，只是暂时性，后面绝对会改 
         //UIManager.Instance.RegisterLuaObject("UI/HomeUI/HomeUI", (int)EUICanvas.EUICanvas_Normal, "HomeUI/HomeUI", true, (int)EUIType.EUIType_Home, false, true);
-        AddGame<HomeUI>(typeof(HomeUI), "HomeUI/HomeUI", EUICanvas.EUICanvas_Normal);
-        AddGame<BattleUI>(typeof(BattleUI), "BattleUI/BattleUI", EUICanvas.EUICanvas_Normal);
-        AddGame<WallpaperUI>(typeof(WallpaperUI), "HomeUI/WallpaperUI", EUICanvas.EUICanvas_Normal);
-		AddGame<RegistUI> (typeof(RegistUI), "LoginUI/RegistUI", EUICanvas.EUICanvas_Normal);
+  //      AddGame<HomeUI>(typeof(HomeUI), "HomeUI/HomeUI", EUICanvas.EUICanvas_Normal);
+  //      AddGame<BattleUI>(typeof(BattleUI), "BattleUI/BattleUI", EUICanvas.EUICanvas_Normal);
+  //      AddGame<WallpaperUI>(typeof(WallpaperUI), "HomeUI/WallpaperUI", EUICanvas.EUICanvas_Normal);
+		//AddGame<RegistUI> (typeof(RegistUI), "LoginUI/RegistUI", EUICanvas.EUICanvas_Normal);
+
+  //      UIManager.Instance.RegisterUI("LoginUI/RegistUI", "LoginUI/RegistUI", EUIType.EUIType_Home, true, EUICanvas.EUICanvas_Normal, true);
         //AddGame<GuideUI>(typeof(GuideUI), "GuideUI", EUICanvas.EUICanvas_Top);
 
         //#endregion

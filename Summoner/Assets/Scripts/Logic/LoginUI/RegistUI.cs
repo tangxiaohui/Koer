@@ -35,12 +35,14 @@ public class RegistUI : UIBase {
         //用户名密码为空
         if (AccountText.text == "" || PasswordText.text == "")
         {
+            SinglePanelManger.Instance.PushTips(TextManager.Instance.GetString(TEXTS.Text_Tips_AcOrPwIsNull));
             Debug.Log("用户名密码不能为空!");
             return;
         }
         //两次密码不同
         if (PasswordText.text != RepeatePassInputField.text)
         {
+            SinglePanelManger.Instance.PushTips(TextManager.Instance.GetString(TEXTS.Text_Tips_TwoPwIsUnEqual));
             Debug.Log("两次输入的密码不同！");
             return;
         }
@@ -51,7 +53,10 @@ public class RegistUI : UIBase {
             int port = 1234;
             NetMgr.srvConn.proto = new ProtocolBytes();
             if (!NetMgr.srvConn.Connect(host, port))
+            {
+                SinglePanelManger.Instance.PushTips(TextManager.Instance.GetString(TEXTS.Text_Tips_AcOrPwIsNull));
                 Debug.Log("连接服务器失败!");
+            }
         }
         //发送
         ProtocolBytes protocol = new ProtocolBytes();
@@ -69,8 +74,12 @@ public class RegistUI : UIBase {
 		int ret = proto.GetInt (start, ref start);
 		if (ret == 0) {
 			Debug.Log ("注册成功");
+            UIManager.Instance.OpenUI(EUIName.ResigsterSucceesUI);
+            ResigsterSucceesUI ui = (ResigsterSucceesUI)UIManager.Instance.GetUI(EUIName.ResigsterSucceesUI);
+            ui.UpdateInfo("用户名：" + AccountText.text,"密码：" + PasswordText.text, "AAAAAAAAAAAAAAAAAAAAA");
 			CloseUI ();
 		} else {
+            SinglePanelManger.Instance.PushTips(TextManager.Instance.GetString(TEXTS.Text_RegistFail));
 			Debug.Log ("注册失败");
 		}
 	}

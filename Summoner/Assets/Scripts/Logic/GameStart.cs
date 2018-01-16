@@ -26,6 +26,7 @@ public class GameStart
         NetMgr.srvConn.proto = new ProtocolBytes();
         NetMgr.srvConn.Connect("127.0.0.1", 1234);
 
+        UIManager.Instance.OpenUI(EUIName.AccountUI);
 		if (clientProxy == null) 
 		{
 			GameObject go = new GameObject ("[ClientProxy]");

@@ -141,7 +141,6 @@
      <Compile Include="Assets\Scripts\Logic\LoginUI\RegistUI.cs" />
      <Compile Include="Assets\Scripts\NetWork\Connection.cs" />
      <Compile Include="Assets\Scripts\NetWork\MsgDistribution.cs" />
-     <Compile Include="Assets\Scripts\NetWork\net.cs" />
      <Compile Include="Assets\Scripts\NetWork\NetMgr.cs" />
      <Compile Include="Assets\Scripts\NetWork\ProtocolBase.cs" />
      <Compile Include="Assets\Scripts\NetWork\ProtocolBytes.cs" />
