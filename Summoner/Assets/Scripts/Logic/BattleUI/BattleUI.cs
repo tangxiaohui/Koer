@@ -17,7 +17,7 @@ public class BattleUI : UIBase
         ownerCardPanel.GetComponent<BattleCardsPanel>().Initalize();
 
         m_sroll = Utility.GameUtility.FindDeepChild<UIScrollView>(gameObject, "scrollview");
-        ClearContentSroll(EnemyPlayer.Instance.data.CardList.Count);
+        ClearContentSroll(EnemyPlayer.Instance.data.BattleCardList.Count);
     }
 
     public void ClearContentSroll(int count)
@@ -37,7 +37,11 @@ public class BattleUI : UIBase
     {
         //Debug.Log("index:" + index);
         UIText name = Utility.GameUtility.FindDeepChild<UIText>(go, "name");
-        name.text = index.ToString();
+        name.text = MyPlayer.Instance.data.CardList[index].ToString();
+        go.name = index.ToString();
+        Cards card = Cards.Get(EnemyPlayer.Instance.data.BattleCardList[index]);
+        //Debug.Log("card:" + card.CardID.ToString());
+        go.transform.Find("card").GetComponent<UIImage>().sprite = ResourcesManager.Instance.SyncGetCardImgInAltas(card.CardID);
     }
 
     public override void OpenUI()

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 //字节流协议模型
 public class ProtocolBytes : ProtocolBase
@@ -91,18 +92,29 @@ public class ProtocolBytes : ProtocolBase
 
     public void AddIntList(List<int> list)
     {
+        StringBuilder MyStringBuilder = new StringBuilder();
         foreach (int i in list)
         {
-            AddInt(i);
+            MyStringBuilder.Append(i.ToString());
+            MyStringBuilder.Append("|");
         }
+
+        AddString(MyStringBuilder.ToString());
     }
 
     public List<int> GetIntList(int start, ref int end)
     {
         List<int> list = new List<int>();
-        while (bytes.Length >= start + sizeof(Int32))
+        string listStr = GetString(start, ref start);
+        end = start;
+        string[] listArray = listStr.Split('|');
+        for (int i = 0; i < listArray.Length; i++)
         {
-            list.Add(GetInt(start, ref start));
+            int temp = 0;
+            if (int.TryParse(listArray[i], out temp))
+            {
+                list.Add(temp);
+            }
         }
         return list;
     }

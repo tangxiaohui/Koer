@@ -62,16 +62,31 @@ public class AccountUI : UIBase
         ProtocolBytes proto = (ProtocolBytes)protocol;
         int start = 0;
         string protoName = proto.GetString(start, ref start);
+        Debug.Log("protoName:" + protoName);
         int ret = proto.GetInt(start, ref start);
         List<int> list = proto.GetIntList(start, ref start);
-        Debug.Log("list count :" + list.Count.ToString());
+        List<int> battleList = proto.GetIntList(start, ref start);
+        Debug.Log("MMMMMMMMMMMMMMMMMM:" + list.Count + "||||||||||||" + battleList.Count);
+        string str = "";
+        foreach(int i in list)
+        {
+            str += i.ToString() + "||";
+        }
+        Debug.Log(str);
+        Debug.Log("Battle Cards");
+        str = "";
+        foreach(int i in battleList)
+        {
+            str += i.ToString() + "||";
+        }
+        Debug.Log(str);
         if (ret == 0)
         {
             SinglePanelManger.Instance.PushTips(TextManager.Instance.GetString(TEXTS.Text_LoginSuccess));
             Debug.Log("登录成功");
             CloseUI();
             MyPlayer.Instance.id = AccountText.text;
-            MyPlayer.Instance.data = new PlayerData(list);
+            MyPlayer.Instance.data = new PlayerData(list, battleList);
             UIManager.Instance.OpenUI(EUIName.HomeUI);
         }
         else

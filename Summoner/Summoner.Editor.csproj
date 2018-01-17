@@ -355,6 +355,7 @@
     <Compile Include="Assets\Editor\Common\_Excel\NPOI2.2.1\Excel\NPOIEx.cs" />
     <Compile Include="Assets\Editor\Common\_Excel\NPOI2.2.1\Excel\NPOIHssfEx.cs" />
     <Compile Include="Assets\Editor\Common\FileHelper.cs" />
+    <Compile Include="Assets\Editor\TexturePackerEditor.cs" />
     <Compile Include="Assets\Editor\UIScrollViewIspector.cs" />
   </ItemGroup>
   <ItemGroup>

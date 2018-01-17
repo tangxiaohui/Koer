@@ -69,6 +69,22 @@ namespace Res
             return SyncGetSpecifyImgInAltas(resName, (int)type);
         }
 
+        public Sprite SyncGetCardImgInAltas(int CardId)
+        {
+            int type = 0;
+            if (CardId <= 24)
+                type = (int)AltasType.Card1;
+            else if (CardId <= 48)
+                type = (int)AltasType.Card2;
+            else if (CardId <= 72)
+                type = (int)AltasType.Card3;
+            else if (CardId <= 96)
+                type = (int)AltasType.Card4;
+            else
+                type = (int)AltasType.Card5;
+            return SyncGetSpecifyImgInAltas(CardId.ToString(), type);
+        }
+
         public Sprite SyncGetSpecifyImgInAltas(string resName, int type)
         {
             if(string.IsNullOrEmpty(resName))

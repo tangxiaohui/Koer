@@ -90,6 +90,7 @@ public partial class HandleConnMsg
 		//返回
 		protocolRet.AddInt(0);
         protocolRet.AddIntList(playerData.CardList);
+        protocolRet.AddIntList(playerData.BattleCardList);
 		conn.Send (protocolRet);
 		return;
 	}

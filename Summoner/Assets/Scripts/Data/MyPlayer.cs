@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MyPlayer : Player
+public class MyPlayer : SingleInstance<MyPlayer>
 {
-   
-
+    public string id;
+    public PlayerData data;
 }

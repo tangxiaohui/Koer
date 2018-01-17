@@ -163,8 +163,29 @@ public partial class HandlePlayerMsg
         ProtocolBytes protocolRet = new ProtocolBytes();
         protocolRet.AddString("SerachEnemy");
         protocolRet.AddString("Test");
-        List<int> cardList = new List<int>() { 5, 6, 7, 8, 9, 10 };
-        protocolRet.AddIntList(cardList);
+        List<int> EnemyBattleCardList = new List<int>() { 5, 6, 7, 8, 9, 10 };
+        protocolRet.AddIntList(EnemyBattleCardList);
+
+        player.conn.Send(protocolRet);
+    }
+
+    public void MsgSetMyBattleCardList(Player player, ProtocolBase protoBase)
+    {
+        int start = 0;
+        ProtocolBytes protocol = (ProtocolBytes)protoBase;
+        string protoName = protocol.GetString(start, ref start);
+        List<int> MyPlayerBattleCardList = protocol.GetIntList(start, ref start);
+        bool isScuss = DataMgr.instance.SetBattleCardList(player.id, MyPlayerBattleCardList);
+        MyPlayerBattleCardList = DataMgr.instance.GetBattleCardList(player.id);
+        Console.WriteLine("MyPlayerBattleCardList :" + MyPlayerBattleCardList.Count);
+        ProtocolBytes protocolRet = new ProtocolBytes();
+        protocolRet.AddString("SetMyBattleCardList");
+        if (isScuss)
+            protocolRet.AddInt(0);
+        else
+            protocolRet.AddInt(-1);
+       
+        protocolRet.AddIntList(MyPlayerBattleCardList);
 
         player.conn.Send(protocolRet);
     }

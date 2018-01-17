@@ -6,6 +6,7 @@ using System.Text.RegularExpressions;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using System.Collections.Generic;
 
 public class DataMgr
 {
@@ -224,6 +225,22 @@ public class DataMgr
         player.data = playerData;
 
         return SavePlayer(player);
+    }
+
+    public bool SetBattleCardList(string id, List<int> cardList)
+    {
+        PlayerData playerData = GetPlayerData(id);
+        playerData.BattleCardList = cardList;
+        Player player = new Player(id, null);
+        player.data = playerData;
+
+        return SavePlayer(player);
+    }
+
+    public List<int> GetBattleCardList(string id)
+    {
+        PlayerData playerData = GetPlayerData(id);
+        return playerData.BattleCardList;
     }
 
     //获取一个玩家数据

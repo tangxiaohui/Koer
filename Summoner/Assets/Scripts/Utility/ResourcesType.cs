@@ -88,6 +88,11 @@ namespace Res
         HeronForm = 24,
         HeroineForm = 25,
         RankIcon = 26,
+        Card1 = 27,
+        Card2 = 28,
+        Card3 = 29,
+        Card4 = 30,
+        Card5 = 31,
         //99以后都用于Loading图
         LoadingForm = 99,
     }

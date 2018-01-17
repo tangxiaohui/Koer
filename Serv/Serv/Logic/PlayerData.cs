@@ -8,12 +8,12 @@ public class PlayerData
 	public int win = 0;
 	public int fail = 0;
     public List<int> CardList = new List<int>();
+    public List<int> BattleCardList = new List<int>();
 
-	public PlayerData()
+    public PlayerData()
 	{
 		score = 100;
-        CardList.Add(1);
-        CardList.Add(2);
-        CardList.Add(3);
+        for (int i = 1; i < 100; i++)
+            CardList.Add(i);
 	}
 }
