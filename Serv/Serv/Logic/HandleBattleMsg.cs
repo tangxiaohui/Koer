@@ -176,12 +176,14 @@ public partial class HandlePlayerMsg
         string protoName = protocol.GetString(start, ref start);
         List<int> MyPlayerBattleCardList = protocol.GetIntList(start, ref start);
         bool isScuss = DataMgr.instance.SetBattleCardList(player.id, MyPlayerBattleCardList);
-        MyPlayerBattleCardList = DataMgr.instance.GetBattleCardList(player.id);
         Console.WriteLine("MyPlayerBattleCardList :" + MyPlayerBattleCardList.Count);
         ProtocolBytes protocolRet = new ProtocolBytes();
         protocolRet.AddString("SetMyBattleCardList");
         if (isScuss)
+        {
             protocolRet.AddInt(0);
+            player.data.BattleCardList = MyPlayerBattleCardList;
+        }
         else
             protocolRet.AddInt(-1);
        

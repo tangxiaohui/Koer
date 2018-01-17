@@ -12,8 +12,6 @@ public class PlayerData
 
     public PlayerData()
 	{
-		score = 100;
-        for (int i = 1; i < 100; i++)
-            CardList.Add(i);
+		
 	}
 }

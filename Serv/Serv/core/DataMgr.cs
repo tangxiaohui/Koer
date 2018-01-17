@@ -107,6 +107,7 @@ public class DataMgr
 		IFormatter formatter = new BinaryFormatter ();
 		MemoryStream stream = new MemoryStream ();
 		PlayerData playerData = new PlayerData ();
+        playerData.CardList.AddRange(new List<int> { 1,2,3,4,5,6});
 		try 
 		{
 			formatter.Serialize(stream, playerData);
@@ -218,7 +219,7 @@ public class DataMgr
     public bool DelCardForPlayer(string id, int CardId)
     {
         PlayerData playerData = GetPlayerData(id);
-        if (playerData.CardList.Contains(CardId))
+        if (!playerData.CardList.Contains(CardId))
             return false;
         playerData.CardList.Remove(CardId);
         Player player = new Player(id, null);
