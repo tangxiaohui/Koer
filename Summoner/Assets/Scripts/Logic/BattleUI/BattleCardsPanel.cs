@@ -5,7 +5,7 @@ using Res;
 
 public class BattleCardsPanel : MonoBehaviour {
     protected UIFashionCard m_sroll = null;
-    private Dictionary<int, GameObject> HpImgDic = new Dictionary<int, GameObject>();
+    private List<GameObject> HpImgDic = new List<GameObject>();
 
     void Start () {
         Initalize();
@@ -18,6 +18,7 @@ public class BattleCardsPanel : MonoBehaviour {
         m_sroll.InitUnChose = InitUnChose;
         m_sroll.InitChosed = InitChosed;
         m_sroll.InitializeItem = InitCardItem;
+        HpImgDic.Clear();
         m_sroll.AddItem(MyPlayer.Instance.data.BattleCardList.Count);
 
         BattleManager.Instance.OnFightOpComplete += UpdateHpImg;
@@ -40,14 +41,20 @@ public class BattleCardsPanel : MonoBehaviour {
         m_Hp.fillAmount = battleCard.HpPercent();
         m_NameText.text = battleCard.BaseData.Name;
 
-        if (!HpImgDic.ContainsKey(card.CardID))
-            HpImgDic.Add(card.CardID, item);
+        HpImgDic.Add(item);
     }
 
     public void UpdateHpImg()
     {
         BattleCard battleCard = BattleManager.Instance.GetCurrentMyFightCard();
-        Utility.GameUtility.FindDeepChild<UIImage>(HpImgDic[battleCard.Id], "HpNode/Hp").fillAmount = battleCard.HpPercent();
+        foreach(GameObject i in HpImgDic)
+        {
+            if(battleCard.Id == int.Parse(i.name))
+            {
+                Utility.GameUtility.FindDeepChild<UIImage>(i, "HpNode/Hp").fillAmount = battleCard.HpPercent();
+                break;
+            }
+        }
     }
 
     public void InitUnChose(GameObject obj)
