@@ -135,7 +135,7 @@ public class UIBase : Base
         }
         listerner.onClick = delegate (GameObject obj)
         {
-            CloseUI();
+            //CloseUI();
         };
     }
 

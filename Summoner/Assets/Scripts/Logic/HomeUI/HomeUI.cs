@@ -6,16 +6,22 @@ using Res;
 public class HomeUI : UIBase {
     protected UIScrollView m_sroll = null;
     protected UIButton BattleBtn = null;
+    protected UIButton BattleOpenBtn = null;
 
     public override void Initalize()
     {
         base.Initalize();
         m_sroll = Utility.GameUtility.FindDeepChild<UIScrollView>(gameObject, "scrollview");
         BattleBtn = Utility.GameUtility.FindDeepChild<UIButton>(gameObject, "PlayBtn");
+        BattleOpenBtn = Utility.GameUtility.FindDeepChild<UIButton>(gameObject, "BattleOpenBtn");
         AddClick(BattleBtn.gameObject, OnClickBattleBtn);
+        AddClick(BattleOpenBtn.gameObject, OnClickBattleOpenBtn);
         ClearContentSroll(MyPlayer.Instance.data.CardList.Count);
-        Cards Test = Cards.Get(1);
-        Debug.Log("-----------------:" + Test.Name);
+    }
+
+    public void OnClickBattleOpenBtn(GameObject obj)
+    {
+        UIManager.Instance.OpenUI(EUIName.BattleCardShowUI);
     }
 
     public void OnClickBattleBtn(GameObject obj)
@@ -28,7 +34,7 @@ public class HomeUI : UIBase {
             SinglePanelManger.Instance.PushTips("你还没召唤出战英雄!");
             return;
         }
-        SerachEnemy();
+        UIManager.Instance.OpenUI(EUIName.SearchEnemyUI);
     }
 
     public void ClearContentSroll(int count)
@@ -66,9 +72,9 @@ public class HomeUI : UIBase {
             }
         }
         AddListClick(battlebtn.gameObject, delegate(GameObject obj){
-            if (MyPlayer.Instance.data.BattleCardList.Count < 6)
-                MyPlayer.Instance.data.BattleCardList.Add(card.CardID);
-            SetMyBattleCardList();
+            bool isSuc = SetTheCardBattle(card.CardID);
+            if (isSuc)
+                battlebtn.gameObject.SetActive(false);
         });
     }
 
@@ -82,11 +88,21 @@ public class HomeUI : UIBase {
         }
     }
 
-    public void SetTheCardBattle(GameObject obj)
+    public bool SetTheCardBattle(int cardID)
     {
+        bool isSuc = false;
         if (MyPlayer.Instance.data.BattleCardList.Count < 6)
-            MyPlayer.Instance.data.BattleCardList.Add(int.Parse(obj.name));
-        SetMyBattleCardList();
+        {
+            MyPlayer.Instance.data.BattleCardList.Add(cardID);
+            SetMyBattleCardList();
+            isSuc = true;
+        }
+        else
+        {
+            UIManager.Instance.OpenUI(EUIName.BattleCardShowUI);
+        }
+
+        return isSuc;
     }
 
     public override void OpenUI()
@@ -113,8 +129,6 @@ public class HomeUI : UIBase {
 
     public void SetMyBattleCardList()
     {
-        if (MyPlayer.Instance.data.BattleCardList.Count < 6)
-            return;
         ProtocolBytes protocol = new ProtocolBytes();
         protocol.AddString("SetMyBattleCardList");
         Debug.Log("发送 " + protocol.GetDesc());
@@ -154,7 +168,6 @@ public class HomeUI : UIBase {
         {
             SinglePanelManger.Instance.PushTips("找到敌人" + EnemyPlayer.Instance.id);
             Debug.Log("敌人出战卡牌数：" + EnemyBattleCardList.Count);
-            UIManager.Instance.OpenUI(EUIName.BattleUI);
             CloseUI();
         }
         else

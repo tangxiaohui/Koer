@@ -5,6 +5,7 @@ using Res;
 
 public class BattleCardsPanel : MonoBehaviour {
     protected UIFashionCard m_sroll = null;
+    private Dictionary<int, GameObject> HpImgDic = new Dictionary<int, GameObject>();
 
     void Start () {
         Initalize();
@@ -19,15 +20,34 @@ public class BattleCardsPanel : MonoBehaviour {
         m_sroll.InitializeItem = InitCardItem;
         m_sroll.AddItem(MyPlayer.Instance.data.BattleCardList.Count);
 
-        foreach (int i in MyPlayer.Instance.data.BattleCardList)
-            Debug.Log(i);
+        BattleManager.Instance.OnFightOpComplete += UpdateHpImg;
     }
 
     public void InitCardItem(int index, GameObject item)
     {
         UIText name = Utility.GameUtility.FindDeepChild<UIText>(item, "Name");
-        name.text = MyPlayer.Instance.data.BattleCardList[index].ToString();
-        Utility.GameUtility.FindDeepChild<UIImage>(item, "pic").sprite = ResourcesManager.Instance.SyncGetCardImgInAltas(MyPlayer.Instance.data.BattleCardList[index]);
+        UIImage m_Hp = Utility.GameUtility.FindDeepChild<UIImage>(item, "HpNode/Hp");
+        UIImage m_Process = Utility.GameUtility.FindDeepChild<UIImage>(item, "HpNode/HpProcess");
+        UIText m_NameText = Utility.GameUtility.FindDeepChild<UIText>(item, "HpNode/Name");
+        UIText m_LevelText = Utility.GameUtility.FindDeepChild<UIText>(item, "HpNode/Level");
+        m_Hp.fillAmount = 1.0f;
+        Cards card = Cards.Get(MyPlayer.Instance.data.BattleCardList[index]);
+
+        Utility.GameUtility.FindDeepChild<UIImage>(item, "pic").sprite = ResourcesManager.Instance.SyncGetCardImgInAltas(card.CardID);
+        item.name = card.CardID.ToString();
+        name.text = card.CardID.ToString();
+        BattleCard battleCard = BattleManager.Instance.MyPlayerCardDic[card.CardID];
+        m_Hp.fillAmount = battleCard.HpPercent();
+        m_NameText.text = battleCard.BaseData.Name;
+
+        if (!HpImgDic.ContainsKey(card.CardID))
+            HpImgDic.Add(card.CardID, item);
+    }
+
+    public void UpdateHpImg()
+    {
+        BattleCard battleCard = BattleManager.Instance.GetCurrentMyFightCard();
+        Utility.GameUtility.FindDeepChild<UIImage>(HpImgDic[battleCard.Id], "HpNode/Hp").fillAmount = battleCard.HpPercent();
     }
 
     public void InitUnChose(GameObject obj)
@@ -44,6 +64,7 @@ public class BattleCardsPanel : MonoBehaviour {
         name.color = Color.white;
         Transform mask = Utility.GameUtility.FindDeepChild(obj, "mask");
         mask.gameObject.SetActive(false);
+        BattleManager.Instance.MyFightCardID = int.Parse(name.text);
     }
 
     public void RefreshCards()

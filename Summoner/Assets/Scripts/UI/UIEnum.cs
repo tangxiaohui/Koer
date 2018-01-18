@@ -42,4 +42,6 @@ public static class EUIName
     public const string HomeUI = "HomeUI";
     public const string WallpaperUI = "WallpaperUI";
     public const string BattleUI = "BattleUI";
+    public const string BattleCardShowUI = "BattleCardShowUI";
+    public const string SearchEnemyUI = "SearchEnemyUI";
 }

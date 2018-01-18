@@ -338,6 +338,8 @@ public class UIManager : SingleInstance<UIManager>
         m_preCompeleteUIList.Add(new UIPreLoad("HomeUI/WallpaperUI", EUIType.EUIType_Home, false, EUICanvas.EUICanvas_Normal, true));
         m_preCompeleteUIList.Add(new UIPreLoad("LoginUI/AccountUI", EUIType.EUIType_Home, true, EUICanvas.EUICanvas_Normal, true));
         m_preCompeleteUIList.Add(new UIPreLoad("LoginUI/ResigsterSucceesUI", EUIType.EUIType_LoginBase, true, EUICanvas.EUICanvas_Normal, true));
+        m_preCompeleteUIList.Add(new UIPreLoad("HomeUI/BattleCardShowUI", EUIType.EUIType_Top, true, EUICanvas.EUICanvas_Normal, true));
+        m_preCompeleteUIList.Add(new UIPreLoad("HomeUI/SearchEnemyUI", EUIType.EUIType_Home, true, EUICanvas.EUICanvas_Normal, true));
         for (int i = 0; i < m_preCompeleteUIList.Count; ++i)
         {
             UIPreLoad data = m_preCompeleteUIList[i];
@@ -384,6 +386,12 @@ public class UIManager : SingleInstance<UIManager>
                 break;
             case EUIName.ResigsterSucceesUI:
                 uiBase = obj.AddComponent<ResigsterSucceesUI>();
+                break;
+            case EUIName.BattleCardShowUI:
+                uiBase = obj.AddComponent<BattleCardShowUI>();
+                break;
+            case EUIName.SearchEnemyUI:
+                uiBase = obj.AddComponent<SearchEnemyUI>();
                 break;
             default:
                 uiBase = obj.AddComponent<UIBase>();
