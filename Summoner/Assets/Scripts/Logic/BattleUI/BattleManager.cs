@@ -11,6 +11,16 @@ public class BattleManager : SingleInstance<BattleManager>
     public int EnemyFightCardID = 0;
     public Action OnFightOpComplete = null;
 
+    public enum ATTRIBUTED
+    {
+        Metal,
+        Wood,
+        Water,
+        Fire,
+        Earth,
+        Chaos
+    };
+
     public void InitBattleData()
     {
         foreach(int i in MyPlayer.Instance.data.BattleCardList)
@@ -39,6 +49,12 @@ public class BattleManager : SingleInstance<BattleManager>
     public void FightOp(int enemyCardId)
     {
         EnemyFightCardID = enemyCardId;
+        BattleCard myplayer = MyPlayerCardDic[MyFightCardID];
+        BattleCard enemyplayer = EnemyCardDic[EnemyFightCardID];
+        float Attributed = 1f;
+        //if (myplayer.BaseData.Attributed == (int)ATTRIBUTED.Metal && enemyplayer.BaseData.Attributed == (int)ATTRIBUTED.Wood
+        //    || )
+        //    Attributed = 1.2f;
         EnemyCardDic[enemyCardId].Hurt(MyPlayerCardDic[MyFightCardID].Attack());
         MyPlayerCardDic[MyFightCardID].Hurt(EnemyCardDic[enemyCardId].Attack());
 
